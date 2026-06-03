@@ -1,0 +1,243 @@
+.container {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--space-lg);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav .nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+nav .nav-logo svg {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.logo-wordmark {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.logo-tm {
+  font-size: 7px;
+  font-weight: 400;
+  vertical-align: super;
+  line-height: 0;
+  letter-spacing: 0;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-wordmark {
+  font-size: 16px;
+}
+
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: var(--color-glass);
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: background 0.2s;
+}
+
+.btn-pill:hover {
+  background: rgba(217, 217, 217, 0.35);
+}
+
+.btn-pill.btn-accent {
+  background: var(--color-accent);
+}
+
+.btn-pill.btn-accent:hover {
+  background: rgba(0, 106, 255, 0.95);
+}
+
+.hero {
+  background: var(--color-bg);
+  padding: var(--space-2xl) var(--space-lg);
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-surface);
+
+  margin-inline: auto;
+  border-radius: 30px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: var(--container-max);
+}
+
+.hero-content img {
+  margin-top: 40px;
+}
+
+section {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: var(--container-max);
+  text-align: center;
+}
+
+section + section {
+  margin-top: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-sm);
+}
+
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  margin-top: var(--space-lg);
+}
+
+.card p {
+  margin-top: var(--space-sm);
+}
+
+.callout-inner {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  background: var(--color-accent);
+  border-radius: var(--radius-card);
+  padding: var(--space-xl) var(--space-2xl);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.callout h3 {
+  font-size: 62px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.376;
+}
+
+.callout p {
+  max-width: 564px;
+}
+
+footer {
+  padding: var(--space-xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+footer svg {
+  width: 60px;
+  height: 60px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  letter-spacing: -0.05px;
+}
+
+footer a {
+  color: var(--color-text-muted);
+  transition: color 0.2s;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: var(--color-text);
+}
+
+@media (prefers-color-scheme: light) {
+  .nav-logo svg,
+  .footer-logo svg {
+    filter: invert(1);
+    transition: filter 0.3s ease;
+  }
+
+  .logo-wordmark {
+    color: #000000;
+    transition: color 0.3s ease;
+  }
+
+  /* Nav icon + wordmark over dark section → stay white */
+  .nav-logo.over-dark svg {
+    filter: none;
+  }
+
+  .nav-logo.over-dark .logo-wordmark {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .callout h3 {
+    font-size: 36px;
+  }
+
+  .callout-inner {
+    padding: var(--space-xl) var(--space-lg);
+  }
+}
