@@ -1,0 +1,55 @@
+@media (min-width: 769px) {
+  .desktop-padding-1  { padding-inline: 1px;  }
+  .desktop-padding-2  { padding-inline: 2px;  }
+  .desktop-padding-3  { padding-inline: 3px;  }
+  .desktop-padding-4  { padding-inline: 4px;  }
+  .desktop-padding-5  { padding-inline: 5px;  }
+  .desktop-padding-6  { padding-inline: 6px;  }
+  .desktop-padding-7  { padding-inline: 7px;  }
+  .desktop-padding-8  { padding-inline: 8px;  }
+  .desktop-padding-9  { padding-inline: 9px;  }
+  .desktop-padding-10 { padding-inline: 10px; }
+  .desktop-padding-11 { padding-inline: 11px; }
+  .desktop-padding-12 { padding-inline: 12px; }
+  .desktop-padding-13 { padding-inline: 13px; }
+  .desktop-padding-14 { padding-inline: 14px; }
+  .desktop-padding-15 { padding-inline: 15px; }
+  .desktop-padding-16 { padding-inline: 16px; }
+  .desktop-padding-17 { padding-inline: 17px; }
+  .desktop-padding-18 { padding-inline: 18px; }
+  .desktop-padding-19 { padding-inline: 19px; }
+  .desktop-padding-20 { padding-inline: 20px; }
+  .desktop-padding-21 { padding-inline: 21px; }
+  .desktop-padding-22 { padding-inline: 22px; }
+  .desktop-padding-23 { padding-inline: 23px; }
+  .desktop-padding-24 { padding-inline: 24px; }
+  .desktop-padding-25 { padding-inline: 25px; }
+}
+
+@media (max-width: 768px) {
+  .mobile-padding-1  { padding-inline: 1px;  }
+  .mobile-padding-2  { padding-inline: 2px;  }
+  .mobile-padding-3  { padding-inline: 3px;  }
+  .mobile-padding-4  { padding-inline: 4px;  }
+  .mobile-padding-5  { padding-inline: 5px;  }
+  .mobile-padding-6  { padding-inline: 6px;  }
+  .mobile-padding-7  { padding-inline: 7px;  }
+  .mobile-padding-8  { padding-inline: 8px;  }
+  .mobile-padding-9  { padding-inline: 9px;  }
+  .mobile-padding-10 { padding-inline: 10px; }
+  .mobile-padding-11 { padding-inline: 11px; }
+  .mobile-padding-12 { padding-inline: 12px; }
+  .mobile-padding-13 { padding-inline: 13px; }
+  .mobile-padding-14 { padding-inline: 14px; }
+  .mobile-padding-15 { padding-inline: 15px; }
+  .mobile-padding-16 { padding-inline: 16px; }
+  .mobile-padding-17 { padding-inline: 17px; }
+  .mobile-padding-18 { padding-inline: 18px; }
+  .mobile-padding-19 { padding-inline: 19px; }
+  .mobile-padding-20 { padding-inline: 20px; }
+  .mobile-padding-21 { padding-inline: 21px; }
+  .mobile-padding-22 { padding-inline: 22px; }
+  .mobile-padding-23 { padding-inline: 23px; }
+  .mobile-padding-24 { padding-inline: 24px; }
+  .mobile-padding-25 { padding-inline: 25px; }
+}
