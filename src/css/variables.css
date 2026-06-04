@@ -2,6 +2,7 @@
   --color-bg:         #000000;
   --color-surface:    #191919;
   --color-accent:     rgba(0, 106, 255, 0.81);
+  --color-accent-hover:     rgba(0, 106, 255, 1);
   --color-glass:      rgba(217, 217, 217, 0.2);
   --color-text:       #ffffff;
   --color-text-muted: rgba(255, 255, 255, 0.6);
