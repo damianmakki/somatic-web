@@ -47,6 +47,7 @@ nav .nav-logo svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .footer-wordmark {
@@ -177,7 +178,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
   text-align: center;
 }
 
