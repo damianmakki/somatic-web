@@ -11,6 +11,15 @@ jobs:
       - name: Checkout somatic repo
         uses: actions/checkout@v4.2.2
 
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --baseurl "/somatic"
+
       - name: Push to main repo
         env:
           SSH_KEY: ${{ secrets.MAIN_REPO_DEPLOY_KEY }}
@@ -29,11 +38,10 @@ jobs:
           # Clone main repo into /tmp to keep it fully separate from workspace
           git clone git@github.com:RuckusLabs/ruckuslabs.co.git /tmp/main-repo
 
-          # Sync somatic files into /somatic subfolder
+          # Sync built output into /somatic subfolder
           rsync -av --delete \
             --exclude='.git' \
-            --exclude='.github' \
-            ./ /tmp/main-repo/somatic/
+            _site/ /tmp/main-repo/somatic/
 
           # Commit and push
           cd /tmp/main-repo
