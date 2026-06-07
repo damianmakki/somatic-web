@@ -27,7 +27,7 @@ source ~/.zshrc
 Verify you're on Ruby 3+:
 
 ```bash
-ruby -v   # should print ruby 3.x.x
+ruby -v   # should print ruby 3.x.x or 4.x.x
 ```
 
 ### 2. Install dependencies (first time only)
