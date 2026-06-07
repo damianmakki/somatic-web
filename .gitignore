@@ -1,1 +1,14 @@
+# macOS
 .DS_Store
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# Gems lock (let GitHub Pages manage its own versions)
+Gemfile.lock

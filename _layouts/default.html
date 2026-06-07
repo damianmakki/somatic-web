@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{ page.title }}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" />{% endif %}
+  <meta name="author" content="Ruckus Labs" />
+  <meta name="theme-color" content="#000000" />
+  {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}" />{% endif %}
+
+  {% if page.og %}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.og_url | default: page.canonical }}" />
+  <meta property="og:site_name" content="Somatic" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="{{ page.og_title | default: page.title }}" />
+  <meta property="og:description" content="{{ page.og_description | default: page.description }}" />
+  <meta property="og:image" content="{{ page.og_image }}" />
+  <meta property="og:image:width" content="{{ page.og_image_width | default: '1200' }}" />
+  <meta property="og:image:height" content="{{ page.og_image_height | default: '630' }}" />
+  {% if page.og_image_alt %}<meta property="og:image:alt" content="{{ page.og_image_alt }}" />{% endif %}
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ page.twitter_title | default: page.og_title | default: page.title }}" />
+  <meta name="twitter:description" content="{{ page.og_description | default: page.description }}" />
+  <meta name="twitter:image" content="{{ page.og_image }}" />
+  {% if page.og_image_alt %}<meta name="twitter:image:alt" content="{{ page.og_image_alt }}" />{% endif %}
+  {% endif %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/src/css/index.css" />
+  {% if page.extra_css %}<link rel="stylesheet" href="{{ site.baseurl }}{{ page.extra_css }}" />{% endif %}
+  {% if page.extra_css_2 %}<link rel="stylesheet" href="{{ site.baseurl }}{{ page.extra_css_2 }}" />{% endif %}
+
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/src/images/favicon/favicon-196x196.png" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/src/images/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/src/images/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/src/images/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/src/images/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/src/images/favicon/favicon-128.png" sizes="128x128" />
+
+  {% if page.structured_data %}{% include structured-data.html %}{% endif %}
+</head>
+
+<body>
+
+  <nav>
+    <a class="nav-logo" href="{{ site.baseurl }}/">
+      {% include logo-svg.html size="48" %}
+      <span class="logo-wordmark">Somatic<sup class="logo-tm">™</sup></span>
+    </a>
+    <a class="btn-pill" href="https://testflight.apple.com/join/CVT6dz4U">Join the Beta</a>
+  </nav>
+
+  {{ content }}
+
+  <footer>
+    <div class="footer-logo" data-animate>
+      {% include logo-svg.html size="60" aria_hidden="true" %}
+      <span class="logo-wordmark footer-wordmark">Somatic<sup class="logo-tm">™</sup></span>
+    </div>
+    <p data-animate style="--anim-delay: 0.1s">&#169; 2026 Ruckus Labs&#8482; &nbsp;</p>
+    <p data-animate style="--anim-delay: 0.2s"><a href="{{ site.baseurl }}/help/">Help</a> | <a href="{{ site.baseurl }}/terms/">Terms of Use</a> | <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a></p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.50 });
+
+    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
+
+    // Nav logo: invert on white background in light mode,
+    // revert to white when scrolled over any dark-background section
+    const navLogo = document.querySelector('.nav-logo');
+    if (navLogo) {
+      const logoIcon = navLogo.querySelector('svg');
+      const darkEls = document.querySelectorAll('.hero, .card, .callout-inner');
+      const syncLogoTheme = () => {
+        const logo = logoIcon.getBoundingClientRect();
+        const isOverDark = Array.from(darkEls).some(el => {
+          const r = el.getBoundingClientRect();
+          return r.left < logo.right && r.right > logo.left &&
+                 r.top  < logo.bottom && r.bottom > logo.top;
+        });
+        navLogo.classList.toggle('over-dark', isOverDark);
+      };
+      window.addEventListener('scroll', syncLogoTheme, { passive: true });
+      window.addEventListener('resize', syncLogoTheme, { passive: true });
+      syncLogoTheme();
+    }
+  </script>
+
+</body>
+
+</html>
