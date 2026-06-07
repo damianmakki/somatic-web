@@ -1,0 +1,118 @@
+.faq-section {
+  margin-top: 40px;
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.faq-item:first-of-type {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.faq-item summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  padding: 18px 0;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: '+';
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.45));
+  flex-shrink: 0;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq-item .faq-answer {
+  padding-bottom: 18px;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.7));
+}
+
+.faq-item .faq-answer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: inherit;
+}
+
+.faq-item .faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-item .faq-answer ul {
+  margin: 8px 0 10px 20px;
+  font-size: 16px;
+}
+
+.faq-contact {
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+}
+
+.faq-contact h2 {
+  margin-top: 0 !important;
+}
+
+.faq-contact p {
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.6));
+}
+
+@media (prefers-color-scheme: light) {
+  .faq-item {
+    border-bottom-color: #e5e5ea;
+  }
+
+  .faq-item:first-of-type {
+    border-top-color: #e5e5ea;
+  }
+
+  .faq-item summary::after {
+    color: rgba(0, 0, 0, 0.35);
+  }
+
+  .faq-item .faq-answer {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .faq-item .faq-answer p {
+    color: inherit;
+  }
+
+  .faq-contact {
+    border-top-color: #e5e5ea;
+  }
+
+  .faq-contact p {
+    color: rgba(0, 0, 0, 0.55);
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-item summary {
+    font-size: 16px;
+    padding: 16px 0;
+  }
+}
