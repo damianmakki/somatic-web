@@ -9,8 +9,8 @@
     },
     {
       "name": "somatic-web-jekyll",
-      "runtimeExecutable": "bundle",
-      "runtimeArgs": ["exec", "jekyll", "serve", "--baseurl", "", "--port", "3456", "--livereload"],
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "bundle install && bundle exec jekyll serve --baseurl '' --port 3456 --livereload"],
       "port": 3456
     }
   ]

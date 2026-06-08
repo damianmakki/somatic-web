@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "author": { "@type": "Person", "name": {{ page.author | default: site.title | jsonify }} },
+  "publisher": { "@type": "Organization", "name": "Somatic", "url": "https://ruckuslabs.co/somatic/" },
+  "url": "https://ruckuslabs.co{{ page.url }}"
+  {% assign _img = page.og_image | default: page.cover_image %}
+  {% if _img %}, "image": {{ _img | jsonify }}{% endif %}
+}
+</script>
