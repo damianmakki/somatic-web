@@ -80,6 +80,12 @@ Not every section needs a conclusion sentence. Sometimes the last line of a sect
 **Subheadings are signposts, not titles.**
 They should tell the reader where they're going, not summarize what they just read. Keep them short and plain.
 
+**Sub-items use bold lead-ins, not `###` headers.**
+Within a section that has multiple points, write them as `**bold lead-in**` followed by a paragraph — not as `### subheadings`. Subheadings create a slide-deck feel; bold lead-ins stay inside the flow of a single voice.
+
+> ✅ `**Check in before you load the bar**`
+> ❌ `### Check in before you load the bar`
+
 **Citations anchor credibility — don't weaponize them.**
 One or two well-placed references do more than a footnote on every paragraph. The writing should stand on its own; the citations confirm it.
 
@@ -99,7 +105,7 @@ One or two well-placed references do more than a footnote on every paragraph. Th
 Keep it minimal. No hard sell. The post has already done the work.
 
 ```
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://ruckuslabs.co/somatic)
+*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
 ```
 
 Italic for the trust line. Linked text for the action. One sentence total.
