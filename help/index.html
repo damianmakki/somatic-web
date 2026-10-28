@@ -1,388 +1,242 @@
 ---
 layout: default
 title: "Help & FAQs | Somatic"
-description: "Answers to common questions about Somatic — the holistic fitness app for iPhone."
+description: "Help with Somatic Sessions, timed sets, cardio, meditation, Soma, Duo, sharing, and backups."
 extra_css: /src/css/legal.css
 extra_css_2: /src/css/help.css
 ---
 
-  <main class="legal-content">
-    <h1>Help</h1>
-    <p class="meta">Frequently asked questions about Somatic</p>
-
-    <!-- Getting Started -->
-    <h2>Getting Started</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>What is Somatic?</summary>
-        <div class="faq-answer">
-          <p>Somatic is a personal fitness app for iPhone. Log strength workouts, track cardio with GPS, and get AI-powered session recommendations that adapt to your recovery, sleep, and training history.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What iPhone/iOS version do I need?</summary>
-        <div class="faq-answer">
-          <p>Somatic requires iOS 26 or later.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Does Somatic work with Apple Watch?</summary>
-        <div class="faq-answer">
-          <p>Heart rate data streams from Apple Watch during active sessions. An active workout session on your iPhone is required for Watch HR data to flow in — this is an Apple HealthKit requirement.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Does Somatic need HealthKit access?</summary>
-        <div class="faq-answer">
-          <p>HealthKit access is optional but recommended. Without it, Soma can't read your sleep and recovery signals, and heart rate won't be tracked during workouts.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Workouts -->
-    <h2>Workouts</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>What workout types does Somatic support?</summary>
-        <div class="faq-answer">
-          <p>Strength (sets, reps, weight) and Cardio (GPS distance, pace, heart rate zones). Yoga and Meditation are in development.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do I start a workout?</summary>
-        <div class="faq-answer">
-          <p>Tap any session card on the home screen, or tap the "+" card to start a blank Strength or Cardio session.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I create custom session cards?</summary>
-        <div class="faq-answer">
-          <p>Yes. Tap the gear icon on the Sessions tab → "Add Session Card." You can link a card to a saved Routine and give it a custom name and icon.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What are Sections?</summary>
-        <div class="faq-answer">
-          <p>Sections let you group your session cards under named headers — e.g., "Morning," "Gym," "Home." Long-press a card and choose "Move to Section" to organize.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I reorder session cards?</summary>
-        <div class="faq-answer">
-          <p>Yes. Tap the gear icon → "Edit & Reorder" to drag cards into any order.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do supersets work?</summary>
-        <div class="faq-answer">
-          <p>During a strength workout, tap the superset button on any exercise card to pair it with an adjacent exercise. Paired exercises share the same glass card and alternate as you complete sets.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How does the rest timer work?</summary>
-        <div class="faq-answer">
-          <p>The rest timer starts automatically after you mark a set complete (if Auto-Start is enabled in Settings). You can adjust the default duration in Settings → Preferences → Default Rest Timer. You can also skip, extend, or shorten it with ±15s buttons on the timer bar.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I use the rest timer from my Lock Screen?</summary>
-        <div class="faq-answer">
-          <p>Yes. A Live Activity appears on your Lock Screen and Dynamic Island during active strength sessions. You can start/stop the rest timer directly from there without unlocking your phone.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do I log bodyweight exercises?</summary>
-        <div class="faq-answer">
-          <p>Just leave the weight field blank. Somatic records the set as bodyweight, and your history and personal records for that exercise will track reps instead of load.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I add custom exercises?</summary>
-        <div class="faq-answer">
-          <p>Yes. In the exercise picker during any workout, use the search bar and tap "New Exercise" to create one with a custom name, equipment type, and muscle group.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How are personal records detected?</summary>
-        <div class="faq-answer">
-          <p>Somatic checks your completed set against all previous logged sets for that exercise. If it's the highest weight × reps (or most reps for bodyweight), a PR badge appears in real time.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Cardio -->
-    <h2>Cardio</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>What activities does GPS tracking support?</summary>
-        <div class="faq-answer">
-          <p>Running, walking, cycling, and hiking. GPS distance is captured automatically and carries over to the session summary.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What if I don't want GPS?</summary>
-        <div class="faq-answer">
-          <p>You can enter distance manually after the session if you prefer not to grant location access.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What are heart rate zones?</summary>
-        <div class="faq-answer">
-          <p>Somatic divides your heart rate into 5 zones based on your estimated max HR (220 − age, from your profile). Zone time is shown in a breakdown during and after cardio sessions.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Does cardio use Live Activities?</summary>
-        <div class="faq-answer">
-          <p>No. The Live Activity is only active during strength sessions.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Soma (AI) -->
-    <h2>Soma (AI)</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>What is Soma?</summary>
-        <div class="faq-answer">
-          <p>Soma is the built-in AI coach. It reads your recent training history, sleep, and recovery signals from Apple Health, then walks you through a guided flow to generate a personalized workout recommendation.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How does the Soma flow work?</summary>
-        <div class="faq-answer">
-          <p>It's a four-step wizard: Readiness (reviews your recovery) → Intent (Recover / Maintain / Push) → Tailor (adjust focus areas and equipment) → Generated Session (a ready-to-start workout). You can swap individual exercises or chat to reshape the plan before starting.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Does Soma require an internet connection?</summary>
-        <div class="faq-answer">
-          <p>No. Soma runs entirely on-device using Apple's FoundationModels framework. No data leaves your phone.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How does Soma choose which exercises to recommend?</summary>
-        <div class="faq-answer">
-          <p>It uses a rule-based cascade: fatigue detection → frequency imbalance → stale muscle groups → goal-based fallback. It respects your excluded muscle groups, excluded equipment, and excluded exercises from Settings.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Does Soma learn from what I accept or dismiss?</summary>
-        <div class="faq-answer">
-          <p>Yes. Somatic logs each suggestion outcome. Over time, dismissed workout types are deprioritized in future suggestions.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What is the training phase system?</summary>
-        <div class="faq-answer">
-          <p>Soma follows a 4-week periodization block: accumulation weeks 1–3 (progressive overload) and a deload week 4. Rep ranges and intensity targets adjust automatically across the cycle.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Routines -->
-    <h2>Routines</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>What's the difference between a Session Card and a Routine?</summary>
-        <div class="faq-answer">
-          <p>A Routine is a saved list of exercises. A Session Card is the launcher on your home screen — it can be linked to a Routine so tapping it always starts that specific workout.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do I create a Routine?</summary>
-        <div class="faq-answer">
-          <p>Go to the Movements tab → Routines, and tap the "+" button. Add exercises, target sets, and reps.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Session Templates & Sharing -->
-    <h2>Session Templates &amp; Sharing</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>What is a Session Template?</summary>
-        <div class="faq-answer">
-          <p>A shareable file (.somatictemplate) that captures a complete workout prescription — exercises, sets, reps, and equipment. You can send it to a friend or import one from a coach.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do I share a session?</summary>
-        <div class="faq-answer">
-          <p>Open any completed session in your history, tap the share button, and choose "Share as Template." The file can be sent via Messages, Mail, AirDrop, or any app.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How do I import a template?</summary>
-        <div class="faq-answer">
-          <p>Tap the .somatictemplate file from Files, Messages, or anywhere on iOS. Somatic opens an import confirmation screen showing the exercises, and you can tap "Start Session" to begin immediately.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Stats & History -->
-    <h2>Stats &amp; History</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>Where can I see my workout history?</summary>
-        <div class="faq-answer">
-          <p>The Movements tab (middle tab) shows your full session history. Tap any session for a detailed breakdown including sets, reps, and heart rate.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What stats are shown on the dashboard?</summary>
-        <div class="faq-answer">
-          <p>You can pin up to 4 stats: This Week, This Month, Current Streak, Weekly Volume, Weekly Miles, Average Weekly Pace, Average Weekly Distance, and Personal Records. Customize them in Settings.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>How are personal records tracked across exercises?</summary>
-        <div class="faq-answer">
-          <p>Each exercise's best performance is tracked independently. PRs update live during a workout.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Data & Privacy -->
-    <h2>Data &amp; Privacy</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>Where is my data stored?</summary>
-        <div class="faq-answer">
-          <p>Everything stays on your device. Somatic uses SwiftData (Apple's local database) and does not sync to any external server.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I export my data?</summary>
-        <div class="faq-answer">
-          <p>Yes. Settings → Data → Export Your Data generates a JSON file with your full workout history, profile, routines, and custom exercises. You can save it to Files or share it anywhere.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I restore from a backup?</summary>
-        <div class="faq-answer">
-          <p>Yes. Settings → Data → Restore from Backup lets you select a previously exported JSON file. Existing sessions won't be duplicated.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I import from the Strong app?</summary>
-        <div class="faq-answer">
-          <p>Yes. Settings → Data → Import from Strong. Export your data from Strong as a CSV (Strong → Settings → Export Data → CSV), then select the file in Somatic.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What happens if I tap "Start Fresh"?</summary>
-        <div class="faq-answer">
-          <p>Everything is wiped — profile, sessions, routines, custom exercises — and you'll go through onboarding again. This cannot be undone, so export your data first if you want to keep it.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Customization -->
-    <h2>Customization</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>Can I change the app's accent color?</summary>
-        <div class="faq-answer">
-          <p>Yes. Settings → Theme. Options include Dynamic (adapts to your recent workout mix), Strength, Cardio, Neutral, and Custom (pick any color).</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What is Dynamic theme?</summary>
-        <div class="faq-answer">
-          <p>Dynamic mode builds a gradient from the last 30 days of session history, weighted by workout type frequency — so a strength-heavy week shifts the palette toward the strength color.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I set a background photo?</summary>
-        <div class="faq-answer">
-          <p>Yes. Settings → Background. Choose a preset, pick from your photo library, or clear it entirely.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>Can I change units?</summary>
-        <div class="faq-answer">
-          <p>Yes. Settings → Preferences → Weight Unit (kg / lbs) and Distance Unit (km / mi). All historical data is stored in metric and converted at display time, so switching units is always reversible.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Notifications -->
-    <h2>Notifications</h2>
-    <div class="faq-section">
-
-      <details class="faq-item">
-        <summary>Does Somatic send workout reminders?</summary>
-        <div class="faq-answer">
-          <p>Yes, optionally. Settings → Notifications → Workout Reminders. Set a daily time for a quiet nudge.</p>
-        </div>
-      </details>
-
-      <details class="faq-item">
-        <summary>What is the Inactivity Nudge?</summary>
-        <div class="faq-answer">
-          <p>A gentle notification if you haven't logged a workout in 3+ days. Can be toggled off in Settings → Notifications.</p>
-        </div>
-      </details>
-
-    </div>
-
-    <!-- Contact -->
-    <div class="faq-contact">
-      <h2>Still have a question?</h2>
-      <p>Reach out and we'll get back to you as soon as we can.</p>
-      <p><a href="mailto:support@ruckuslabs.co">support@ruckuslabs.co</a></p>
-    </div>
-
-  </main>
+<main class="legal-content">
+  <h1>Help</h1>
+  <p class="meta">Updated October 27, 2026 · Current app features and answers</p>
+
+  <h2>Getting Started</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>What is Somatic?</summary>
+      <div class="faq-answer"><p>Somatic is a private fitness and meditation app for iPhone. Track strength and cardio, practice guided breathing or Quiet Sit, and use Soma to prepare training suggestions from your history and preferences.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What iPhone/iOS version do I need?</summary>
+      <div class="faq-answer"><p>Somatic requires iOS 26 or later. Apple Intelligence features depend on a supported device, language, and system settings. Core tracking and local planning do not require an external AI account.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Where do I find everything?</summary>
+      <div class="faq-answer"><p>Sessions contains your workout cards. Summary shows your history, highlights, weekly goal, and muscle training overview. Movements contains the Movement library and saved Routines. Settings contains Profile, Appearance, Preferences, Training, Data, Notifications, Permissions, and support.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Does Somatic need Apple Health?</summary>
+      <div class="faq-answer"><p>Health access is optional. Without it, you can still log workouts and meditate, but Health readings and saving to Apple Health depend on the permissions you grant. Soma can use available Health signals alongside your local training history; missing readings do not mean you are recovered or unfit.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can Apple Watch or AirPods supply heart rate?</summary>
+      <div class="faq-answer"><p>Somatic can display heart-rate samples made available through Apple Health during physical workouts, including from a connected Apple Watch or supported AirPods. Delivery depends on the device, permissions, and connection. Starting a phone workout cannot force a disconnected sensor to send readings.</p></div>
+    </details>
+  </div>
+
+  <h2>Strength &amp; Timers</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>How do I start a workout?</summary>
+      <div class="faq-answer"><p>Open Sessions and tap a Strength card, or create a Session card for the workout you want to launch. Cards can be linked to saved Routines. The Soma card opens the planning flow.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I organize my Session cards?</summary>
+      <div class="faq-answer"><p>Use the editing controls on Sessions to add, edit, reorder, or group cards into sections. A section contains one or more cards. You can link a card to a saved Routine and customize its title and icon.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I log time-based sets?</summary>
+      <div class="faq-answer"><p>Yes. A Movement can use weight and reps or timed sets. Timed sets have a customizable target, countdown and overtime tracking, and recorded actual duration. You can edit a completed duration. Settings → Preferences also lets you choose Time as the default for new Movements.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How does the rest timer work?</summary>
+      <div class="faq-answer"><p>When automatic rest is enabled, completing a set starts the rest countdown. Set your default in Settings → Preferences, or adjust workout rest settings during a Session. You can skip rest or adjust the remaining time from the timer controls.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I log sets from my Lock Screen?</summary>
+      <div class="faq-answer"><p>Yes. Strength Live Activities provide set and rest controls on the Lock Screen and Dynamic Island. Available controls reflect whether you are working, timing a set, or resting. Live Activities must be allowed in iOS Settings.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How do supersets work?</summary>
+      <div class="faq-answer"><p>Pair adjacent Movements with the superset control during a strength workout. The pair shares a card and alternates as you complete sets. You can also save superset pairings in Routines.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How do I record weight and reps?</summary>
+      <div class="faq-answer"><p>Enter load and reps for each set. For dumbbells, use the weight of one dumbbell; for barbells, include the bar. For unilateral Movements, record reps or duration per side after completing both sides. Bodyweight sets can leave the weight blank.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I add or swap Movements during a workout?</summary>
+      <div class="faq-answer"><p>Yes. Use the Movement picker to add or swap Movements. Search by name, equipment, or muscle group. You can create custom Movements and keep persistent notes from the Movement details.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How are personal records detected?</summary>
+      <div class="faq-answer"><p>Completed rep-based sets are compared with previous performance for that Movement: weight × reps for loaded sets, or reps for bodyweight sets. Timed-set records use the longest recorded duration. A record reflects what you logged, rather than an estimated one-rep maximum.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What does RIR mean?</summary>
+      <div class="faq-answer"><p>Reps in reserve is your estimate of how many more reps you could have performed. If enabled under Soma Intelligence in Settings → Training, you can record it after a set. Soma can use this feedback with your training history.</p></div>
+    </details>
+  </div>
+
+  <h2>Cardio</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>Which activities use GPS?</summary>
+      <div class="faq-answer"><p>Running, walking, cycling, and hiking can use GPS to record distance, pace or speed, elevation, and a route. Other cardio activities can be logged without GPS. You control location access in Settings → Permissions or iOS Settings.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Will GPS keep working with my phone locked?</summary>
+      <div class="faq-answer"><p>An active GPS-enabled Session can keep tracking while the app is in the background or the phone is locked, when location access is allowed. Manual pause stops location updates until you resume. Finishing or discarding ends tracking.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I customize the cardio display?</summary>
+      <div class="faq-answer"><p>Yes. Workout Settings lets you choose your primary metric and the live metrics grid. You can also control GPS auto-pause, use manual pause and resume, and record laps.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Does cardio support Live Activities?</summary>
+      <div class="faq-answer"><p>Yes. Cardio can show live workout metrics on the Lock Screen and Dynamic Island, with pause and resume controls. Keep the app and iOS Live Activity permissions enabled.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How are heart-rate zones and calories calculated?</summary>
+      <div class="faq-answer"><p>Heart-rate zones use an estimated maximum heart rate based on your profile birth year (220 minus age). Body weight helps calorie estimates. These are general fitness estimates; readings also depend on available sensor data and are not medical measurements.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Where is my running route?</summary>
+      <div class="faq-answer"><p>Open the completed Session in Summary history to review its recorded route and available metrics. A route requires GPS permission and valid location samples during the Session.</p></div>
+    </details>
+  </div>
+
+  <h2>Meditation</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>What meditation practices are available?</summary>
+      <div class="faq-answer"><p>Choose guided Breathing or Quiet Sit. Breathing includes Even (4 seconds in, 4 out), Long Exhale (4 in, 6 out), and Box breathing with 4-second phases. Set a duration, or choose an open-ended Quiet Sit.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I pause or hide the controls?</summary>
+      <div class="faq-answer"><p>Yes. Practice includes pause and resume, optional bells, and controls you can hide for a quieter screen. Restore the controls when you need them. Reduced Motion uses a still breathing icon.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What is saved when I finish?</summary>
+      <div class="faq-answer"><p>Finish ends the active mindful time; review the completion screen, add optional notes, and tap Done to save. With permission, only active mindful intervals are written to Apple Health. Meditation does not record a physical workout or collect heart rate.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Does meditation count toward training load?</summary>
+      <div class="faq-answer"><p>Meditation stays in your practice history but does not add physical training load, count toward physical training consistency, or enter Soma workout suggestions. Yoga is not currently enabled.</p></div>
+    </details>
+  </div>
+
+  <h2>Soma</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>How does Soma prepare a workout?</summary>
+      <div class="faq-answer"><p>Soma combines your logged training, goals, available time, equipment, exclusions, soreness check-ins, and available Health context. Choose Recover, Maintain, or Progress, review the suggested plan, and adjust it before you start.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Is Soma always using AI?</summary>
+      <div class="faq-answer"><p>No. Local planning rules build and validate workout prescriptions. On supported devices, Apple Intelligence can help select among validated plans. Loads and numerical targets come from the planner. Suggestions remain available through local planning when that AI feature is unavailable.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Does Soma need an internet connection?</summary>
+      <div class="faq-answer"><p>Workout planning and supported Foundation Models processing run on your device. Somatic does not send your training context to an external AI service. Apple may need connectivity to install or manage system model assets; maps and external links can also need a connection.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How do I tailor suggestions?</summary>
+      <div class="faq-answer"><p>Set goals, preferred Session length, equipment, and exclusions in Settings → Training. In the planning flow, choose your intent, time, and focus, and review the Movements and targets. Soma uses your logged history; incomplete history limits what it can infer.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Does a recovery indicator mean I am safe to train?</summary>
+      <div class="faq-answer"><p>No. Soma presents training information and suggestions, not a medical assessment or a guarantee of recovery. Review the plan against how you feel and your circumstances. You decide whether to follow or modify it.</p></div>
+    </details>
+  </div>
+
+  <h2>Routines &amp; Sharing</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>What is the difference between a Routine and a Session card?</summary>
+      <div class="faq-answer"><p>A Routine saves a workout prescription. A Session card is its launcher on Sessions and can link to a Routine. Open Movements → Routines to create or edit saved Routines.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How do I share a workout?</summary>
+      <div class="faq-answer"><p>From a completed Session, use the sharing controls to create a reusable template link. You can also share a section of Session cards. Sharing uses links rather than .somatictemplate files.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What is included in a shared link?</summary>
+      <div class="faq-answer"><p>A shared prescription can contain its title, Movements, equipment, target sets, reps, weights or durations, rest settings, and superset pairings. It is not a full copy of the completed workout record. Review what you share; anyone with the link can access it.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How do I open a shared link?</summary>
+      <div class="faq-answer"><p>Tap the Session or section link on a device with Somatic installed. Review the import confirmation before saving or starting. Without the app, a shared Session link opens the website fallback. Current links carry their encoded contents in the URL query; see the Privacy Policy for details.</p></div>
+    </details>
+  </div>
+
+  <h2>Summary &amp; History</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>Where is my workout history?</summary>
+      <div class="faq-answer"><p>Open Summary to see your Sessions. Tap a completed Session for its sets, reps or durations, notes, and available cardio and heart-rate details. The Movements tab shows individual Movement details and history.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I customize Summary highlights?</summary>
+      <div class="faq-answer"><p>Yes. Use the Highlights editor to select and reorder the statistics you want. There is no four-highlight limit; you can also hide all highlights. The Weekly Goal and 7-Day Muscle Load cards can be hidden independently.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What do the weekly numbers mean?</summary>
+      <div class="faq-answer"><p>The short-term highlights use rolling last-7-day and last-30-day windows. Weekly Goal counts training days across seven calendar days including today, so multiple physical Sessions on one day count as one training day.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What does 7-Day Muscle Load show?</summary>
+      <div class="faq-answer"><p>It summarizes completed strength sets over the last seven days. Direct muscles receive full set credit and supporting muscles receive half credit. Open a muscle for details and the Sessions behind the totals. This describes logged work; it does not measure physiological recovery.</p></div>
+    </details>
+  </div>
+
+  <h2>Duo &amp; Appearance</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>How does Somatic work on Duo?</summary>
+      <div class="faq-answer"><p>On the expanded display, available space can place Guide, History, or Notes beside your active workout. Fold it closed to continue on the outer display. The layout and native controls adapt to the available screen width.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I change colors, backgrounds, and icons?</summary>
+      <div class="faq-answer"><p>Open Settings → Appearance to choose System, Light, or Dark appearance, a theme or custom accent, a background, and an alternative app icon. Dynamic themes reflect your recent mix of Sessions.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I change measurement units?</summary>
+      <div class="faq-answer"><p>Yes. Settings → Preferences lets you choose weight and distance units. Saved weights use kilograms and distances use meters internally, so changing the displayed units does not rewrite your history.</p></div>
+    </details>
+  </div>
+
+  <h2>Data, Privacy &amp; Notifications</h2>
+  <div class="faq-section">
+    <details class="faq-item">
+      <summary>Where is my data stored?</summary>
+      <div class="faq-answer"><p>Your app records are stored locally, with no Somatic account or cloud workout-sync service. Apple Health is separate, and files or links you choose to share go to the destination you select. Device backups are controlled by your Apple settings.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>How do I back up or restore my data?</summary>
+      <div class="faq-answer"><p>Settings → Data → Export Your Data creates a compressed JSON backup (.json.gz). Save it somewhere you trust. Restore from Backup accepts current backups and older JSON exports and merges data without duplicating existing Sessions. Backups can contain profile details, routes, notes, and training history; compression is not encryption.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I import from Strong?</summary>
+      <div class="faq-answer"><p>Yes. Export a CSV from Strong, then choose Settings → Data → Import from Strong and select the file. Review the import result. Strong import and Somatic backup restore are separate actions.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>What does Start Fresh remove?</summary>
+      <div class="faq-answer"><p>Settings → Account → Start Fresh removes the local profile, workout history, Routines, and custom Movements and returns you to onboarding. There is no undo, so export first if you want to retain your records. Apple Health entries, shared copies, exported files, and device backups must be managed separately.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Can I control reminders and sounds?</summary>
+      <div class="faq-answer"><p>Settings → Notifications → Workout Notifications includes workout sounds, a daily reminder, and an optional nudge after three or more days without a workout. Meditation also has optional bells. System permission, Silent Mode, and notification settings affect delivery. Turning off auto-pause alerts does not turn off automatic tracking pause and resume.</p></div>
+    </details>
+    <details class="faq-item">
+      <summary>Where do I manage permissions?</summary>
+      <div class="faq-answer"><p>Open Settings → Permissions for Health, Location, and Notifications. If access has not yet been requested, Somatic explains the feature before asking. You can change previously granted permissions in iOS Settings.</p></div>
+    </details>
+  </div>
+
+  <div class="faq-contact">
+    <h2>Still have a question?</h2>
+    <p>Email <a href="mailto:support@ruckuslabs.co">support@ruckuslabs.co</a>. Include your app version and what happened; only attach personal data if you intend to share it.</p>
+    <p>Read our <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a> and <a href="{{ site.baseurl }}/terms/">Terms of Use</a>.</p>
+  </div>
+</main>

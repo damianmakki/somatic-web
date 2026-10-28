@@ -1,0 +1,12 @@
+{% comment %}Native simulator captures composited into the supplied iPhone 18 Pro and Duo hardware with display masks derived from each frame.{% endcomment %}
+<div class="device{% if include.duo %} device-duo{% elsif include.duo_outer %} device-duo-outer{% endif %}">
+  <div class="device-display">
+    <img class="device-capture" src="{{ site.baseurl }}/src/images/screens/{{ include.screen }}.webp?v=20261027-duo16" alt="{{ include.alt }}" width="{% if include.duo %}4124{% elsif include.duo_outer %}2100{% else %}1800{% endif %}" height="{% if include.duo %}2996{% elsif include.duo_outer %}2927{% else %}3680{% endif %}" {% if include.priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="sync" />
+  </div>
+  {% if include.video %}
+  <video class="device-video" muted playsinline preload="none" data-src="{{ site.baseurl }}/src/videos/hero-{{ include.video }}.mp4?v=20261027-sequence18&amp;view={{ include.alt | slugify }}" aria-hidden="true" tabindex="-1"></video>
+  <img class="device-video-frame" src="{{ site.baseurl }}/src/images/devices/iphone-18-pro.webp" alt="" width="1800" height="3680" aria-hidden="true" />
+  {% endif %}
+  {% if include.badge == 'privacy' %}<div class="device-badge privacy-badge" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><rect x="13" y="28" width="38" height="31" rx="8" fill="currentColor"/><path d="M21 29V20a11 11 0 0 1 22 0v9" stroke="currentColor" stroke-width="7"/><circle cx="32" cy="41" r="4" fill="var(--color-surface)"/><path d="M32 43v6" stroke="var(--color-surface)" stroke-width="4"/></svg></div>{% endif %}
+  {% if include.badge == 'health' %}<div class="device-badge health-badge" aria-hidden="true"><img src="{{ site.baseurl }}/src/images/icons/apple-health.png" alt="" width="606" height="606" loading="lazy" decoding="sync" /></div>{% endif %}
+</div>

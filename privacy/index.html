@@ -1,71 +1,76 @@
 ---
 layout: default
 title: "Privacy Policy | Somatic"
-description: "Privacy Policy for Somatic. Your data never leaves your device — no servers, no accounts, no tracking."
+description: "How Somatic stores data on your device, uses Apple Health, and handles optional sharing and backups."
 extra_css: /src/css/legal.css
 ---
 
-  <main class="legal-content">
-    <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: June 2, 2026</p>
+<main class="legal-content">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: October 27, 2026</p>
 
-    <div class="highlight highlight-info">
-      <strong>The short version:</strong> Somatic does not collect, transmit, or share any personal data. Everything stays on your device.
-    </div>
+  <div class="highlight highlight-info">
+    <strong>The short version</strong>
+    Your training data is stored on your device. Somatic has no user accounts, advertising, or third-party analytics. Apple Health, links you choose to share, exported backups, and external websites have separate data flows described below.
+  </div>
 
-    <h2>1. Overview</h2>
-    <p>Somatic is built to be fully private. We do not operate servers, do not create user accounts, and do not transmit any information about you or your workouts anywhere. All data is stored locally on your iPhone using Apple's on-device database framework.</p>
+  <h2>1. Overview</h2>
+  <p>Somatic is a fitness and meditation app by Ruckus Labs, LLC. The app stores your information locally using Apple's on-device storage. We do not operate a cloud account or workout-sync service, and the app does not automatically upload your workout history or profile to us.</p>
 
-    <h2>2. Data stored on your device</h2>
-    <p>Somatic stores the following data locally on your device only:</p>
-    <ul>
-      <li>Workout sessions, exercises, sets, weights, distances, and durations</li>
-      <li>Session templates you create or import</li>
-      <li>Your profile (optional name, photo, and training preferences)</li>
-      <li>App settings and preferences</li>
-    </ul>
-    <p>This data never leaves your device except when you explicitly choose to share it — for example, exporting a workout template via iMessage or AirDrop. In that case, only the specific template you export is shared. Nothing else is transmitted.</p>
+  <h2>2. Data stored on your device</h2>
+  <p>Depending on the features you use, local data includes:</p>
+  <ul>
+    <li>Sessions, Movements, sets, weights, reps, timed-set durations, rest settings, personal records, and workout notes</li>
+    <li>Cardio distances, pace, elevation, GPS routes, laps, and heart-rate summaries</li>
+    <li>Meditation practice settings, active mindful intervals, and notes</li>
+    <li>Saved Routines, Session cards, sections, and custom Movements</li>
+    <li>Your optional profile details, including name, photo, body weight, birth year, goals, training preferences, and exclusions</li>
+    <li>Soreness check-ins, Soma suggestions and feedback, planning information, and app preferences</li>
+  </ul>
+  <p>Device backups or transfers provided by Apple may include app data according to your device settings. Somatic does not provide its own cloud sync. Files and links you choose to export are described below.</p>
 
-    <h2>3. Health &amp; fitness data (HealthKit)</h2>
-    <p>Somatic requests access to Apple Health to:</p>
-    <ul>
-      <li><strong>Read</strong> your heart rate during active workouts, to display live BPM and session stats</li>
-      <li><strong>Write</strong> completed workouts to your Apple Health history so they appear in the Fitness app</li>
-    </ul>
-    <p>All HealthKit access is governed by Apple's HealthKit privacy rules. Somatic never reads or writes HealthKit data for advertising purposes, and HealthKit data is never shared with third parties, uploaded to servers, or used for any purpose other than displaying information to you within the app.</p>
-    <p>You can revoke HealthKit access at any time in <strong>Settings → Privacy &amp; Security → Health</strong>.</p>
+  <h2>3. Apple Health</h2>
+  <p>Apple Health access is optional and controlled by the permissions you grant. Somatic can request permission to read heart rate, active energy, resting heart rate, heart-rate variability (HRV), sleep, step count, VO₂ max, and workouts. These signals support workout displays, history charts, and Soma's training context.</p>
+  <p>For physical workouts, Somatic can write workouts, active energy, and walking/running or cycling distance to Apple Health. Meditation requests permission to write mindful minutes. Only active meditation intervals are saved; meditation does not start a physical workout or collect heart rate.</p>
+  <p>Somatic does not sell Health data, use it for advertising, or send it to an external AI service. Apple manages the Health store and any Health syncing you enable. Permission availability and sensor connectivity affect which readings the app can show; missing data is not a medical finding.</p>
+  <p>You can review or revoke permissions in the Health app or iOS Settings. Deleting information inside Somatic does not automatically remove information already saved to Apple Health.</p>
 
-    <h2>4. Location data</h2>
-    <p>Somatic requests access to your location (while the app is in use) during outdoor cardio sessions — running, walking, cycling, or hiking. Location is used solely to calculate distance, pace, and route. GPS coordinates are stored on your device as part of your session history and are never transmitted off your device.</p>
-    <p>You can revoke location access at any time in <strong>Settings → Privacy &amp; Security → Location Services → Somatic</strong>.</p>
+  <h2>4. Location and maps</h2>
+  <p>With your permission, Somatic uses precise location during GPS-enabled outdoor cardio Sessions to calculate distance, pace, elevation, and a route. An active Session can continue receiving location updates while the app is in the background or your phone is locked. Tracking stops when the Session is finished or discarded; manual pause stops location updates until you resume.</p>
+  <p>Recorded routes are stored with your local Session history. Maps use Apple's map services, which may make network requests under Apple's policies. You can revoke access in Settings → Privacy &amp; Security → Location Services → Somatic.</p>
 
-    <h2>5. Photos</h2>
-    <p>If you choose to add a profile photo, the image is stored locally on your device. It is never uploaded or shared.</p>
+  <h2>5. Photos</h2>
+  <p>If you select a profile or background photo, Somatic stores a local copy for display in the app. Somatic does not automatically upload these images to us.</p>
 
-    <h2>6. On-device AI</h2>
-    <p>Somatic uses Apple's on-device AI framework to generate personalized workout suggestions. All AI processing happens entirely on your device. No workout data, preferences, or personal information is sent to any AI service or external server.</p>
+  <h2>6. Soma and on-device intelligence</h2>
+  <p>Soma uses your logged training, preferences, check-ins, and available Health signals to prepare workout suggestions. Supported Apple Intelligence features use Apple's on-device Foundation Models framework. The app does not send this context to an external AI service. Feature availability depends on your device and system settings; the app also uses its own local planning rules.</p>
 
-    <h2>7. Notifications</h2>
-    <p>Somatic uses local notifications — for example, rest timer alerts. These are generated on your device and never involve sending data to a server.</p>
+  <h2>7. Notifications and Live Activities</h2>
+  <p>Workout sounds, timer alerts, meditation bells, reminders, and inactivity nudges use on-device scheduling. Live Activities can show workout details and controls on your Lock Screen and in Dynamic Island. Anyone who can see those surfaces may be able to see the displayed information. You control notification and Live Activity permissions in iOS Settings.</p>
 
-    <h2>8. Third-party services</h2>
-    <p>Somatic does not integrate any analytics services, advertising SDKs, crash-reporting services, or other third-party data processors. The only external frameworks used are Apple's own: HealthKit, CoreLocation, ActivityKit, and Apple Intelligence.</p>
+  <h2>8. Optional sharing links</h2>
+  <p>When you choose to share a Session template or a section of Session cards, Somatic creates a link containing its workout prescription. This can include titles, Movement names, equipment, target sets, reps, weights or durations, rest settings, and superset pairings. It is a prescription to reuse, rather than a full export of your completed workout record.</p>
+  <p>The link contains a compressed, encoded payload in a URL query parameter. Encoding is not encryption. Anyone with the link can access its contents. If the link is requested by a browser, link-preview service, messaging service, or website host, the URL and payload may be transmitted to that service and may appear in its logs or history.</p>
+  <p>Review titles and workout details before sharing, and share only with people and services you trust. The receiving app or service handles the link under its own privacy policy.</p>
 
-    <h2>9. Workout template sharing</h2>
-    <p>When you share a workout template via the share sheet, the template may be shared as a link (<code>ruckuslabs.co/somatic/template</code>). The full workout data — exercises, weights, and sets — is encoded in the URL fragment and <strong>is never transmitted to or stored on our servers</strong>. It exists only within the link itself and is decoded entirely on the recipient's device. Only non-sensitive display metadata (session title, workout type, and exercise count) may be visible to the web server that serves the fallback page for users who don't have the app installed.</p>
+  <h2>9. Imports and exported backups</h2>
+  <p>You can import a Strong CSV, restore a Somatic backup, or choose to export your data. Current backups are compressed JSON files (<code>.json.gz</code>); older JSON backups can also be restored. Backups can contain sensitive information, including your profile, workout history, routes, notes, and Soma-related records.</p>
+  <p>The app creates the export locally and opens the system share sheet. The destination you select, such as Files, iCloud Drive, Mail, or another app, determines where the file goes and how it is handled. Compression is not encryption. Store and share backups carefully. We do not receive a copy unless you choose to send one to us.</p>
 
-    <h2>10. Data retention and deletion</h2>
-    <p>All data is stored on your device. To delete all your Somatic data, delete the app from your iPhone. Data written to Apple Health must be deleted separately through the Health app.</p>
+  <h2>10. External services and support</h2>
+  <p>Somatic does not include advertising SDKs or third-party analytics or crash-reporting SDKs. Apple services, including the App Store, Health, Maps, and system diagnostics, are governed by Apple's terms and settings. Opening support pages, demonstration links, or other external websites sends ordinary web requests to those sites, which may receive your IP address, browser information, and requested URL.</p>
+  <p>If you email support, we receive the message and any information or attachments you choose to include. Do not include Health records or backups unless you intend to share them for support.</p>
 
-    <h2>11. Children's privacy</h2>
-    <p>Somatic does not collect personal information from any user, including children. Since no data is transmitted off your device, there is no personal information for us to collect or retain. Somatic is not directed at children under 13.</p>
+  <h2>11. Retention and deletion</h2>
+  <p>Your local records remain until you delete them, use Settings → Account → Start Fresh, or delete the app. Start Fresh removes the app's local profile and training data and cannot be undone in the app. Export a backup first if you want to keep your records.</p>
+  <p>Apple Health records, exported files, shared links, recipient copies, and device backups are separate. Delete or manage those through the relevant app, recipient, or service. Removing a local record does not recall a link or file you have already shared.</p>
 
-    <h2>12. Changes to this policy</h2>
-    <p>We may update this Privacy Policy from time to time. Changes will be posted at this URL with an updated date. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
+  <h2>12. Children's privacy</h2>
+  <p>Somatic is not directed at children under 13. The app does not require an account or automatically send us personal information. If you believe a child has sent us personal information through a support request, contact us so we can address it.</p>
 
-    <h2>13. Contact</h2>
-    <p>Questions about this Privacy Policy? Contact us at <a href="mailto:support@ruckuslabs.co">support@ruckuslabs.co</a>.</p>
-    <p>Ruckus Labs, LLC</p>
-
-    <hr />
-  </main>
+  <h2>13. Changes and contact</h2>
+  <p>We may update this policy as the app changes. The current version will be posted here with an updated date.</p>
+  <p>For privacy questions, contact <a href="mailto:support@ruckuslabs.co">support@ruckuslabs.co</a>.</p>
+  <p>Ruckus Labs, LLC</p>
+  <hr />
+</main>

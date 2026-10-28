@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Somatic for iOS | Train with your body. Not against it."
-description: "Somatic is a holistic fitness app built exclusively for iPhone. Strength training, cardio, and outdoor activity tracking — all powered by Apple Intelligence. No cloud. No account. No monthly fee."
-keywords: "fitness app, iPhone workout tracker, Apple Health, strength training, yoga, meditation, cardio, Apple Intelligence, privacy-first fitness"
+description: "Strength and cardio. Built around you. Track your workouts, plan with Soma, and see your progress. Private by default. $3.99. No subscription."
+keywords: "fitness app, iPhone workout tracker, Apple Health, strength training, meditation, cardio, Apple Intelligence, privacy-first fitness"
 canonical: "https://ruckuslabs.co/somatic"
 og: true
 og_url: "https://ruckuslabs.co/somatic"
 og_title: "Somatic for iOS | Train with your body. Not against it."
-og_description: "A holistic fitness app built exclusively for iPhone. Strength training, cardio, and outdoor activity tracking — powered by Apple Intelligence. No cloud. No account. No monthly fee."
+og_description: "Strength and cardio. Built around you. Track your workouts, plan with Soma, and see your progress. Private by default. $3.99. No subscription."
 og_image: "https://ruckuslabs.co/somatic/src/images/social/og-preview.png"
 og_image_alt: "Somatic app — holistic fitness for iPhone"
 twitter_title: "Somatic — Train with your body. Not against it."
@@ -16,71 +16,117 @@ structured_data: true
 
   <header class="hero" data-animate>
     <div class="hero-content" data-animate style="--anim-delay: 0.1s">
-      <h1>Train with your body.<br>Not against it.</h1>
-      <h2>The privacy-first, recovery-based workout tracker built for iPhone.</h2>
+      <h1><span class="hero-headline-line">Train with your body.</span><span class="hero-headline-line">Not against it.</span></h1>
+      <h2>Train. Breathe. Make&nbsp;progress.</h2>
       <a class="btn-appstore" href="https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219" data-animate style="--anim-delay: 0.2s">
         <img src="src/images/landing/app-store-badge.svg" alt="Download on the App Store" />
       </a>
-      <img src="src/images/landing/hero.png" class="hero-image" alt="The Somatic app homescreen showing Session icons" data-animate style="--anim-delay: 0.3s"/>
+      <div class="hero-devices" data-animate style="--anim-delay: 0.3s" aria-label="Somatic: strength training, guided breathing, and outdoor running">
+        <div class="hero-device hero-device-center">{% include device-screen.html screen="rest" video="strength" alt="Active strength Session with a running rest timer" priority=true %}</div>
+        <div class="hero-device hero-device-left">{% include device-screen.html screen="meditation" video="breathing" alt="Guided breathing meditation with an animated breathing guide" priority=true %}</div>
+        <div class="hero-device hero-device-right">{% include device-screen.html screen="cardio" video="cardio" alt="Outdoor run with heart-rate zones as the main metric, plus distance and pace" priority=true %}</div>
+      </div>
     </div>
   </header>
 
   <section class="features">
     <div class="features-header" data-animate>
-      <h3 class="mobile-padding-25">Built to help you train smarter.</h3>
+      <h3 class="mobile-padding-25">A little more in every&nbsp;workout.</h3>
     </div>
     <div class="grid">
       <div class="card" data-animate>
-        <img src="src/images/landing/privacy-feature-hero.png" alt="On-device data storage" />
-        <h4 class="mobile-padding-45">Your data never leaves your iPhone.</h4>
-        <p class="mobile-padding-25">No account required. No server sync. No subscription fees for features that should just work.</p>
+        <div class="feature-visual">{% include device-screen.html screen="sessions-dark" alt="Private on-device Sessions with no account required" badge="privacy" %}</div>
+        <h4><span class="headline-line">Your workout.</span><span class="headline-line">Your business.</span></h4>
+        <p>Your training stays on your iPhone. No account. No automatic server sync. Share a workout or export a backup whenever you&nbsp;choose.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/di-la-feature-hero.png " alt="One-tap workout logging with rest timers" />
-        <h4 class="mobile-padding-45">Stay in the zone. Stay in the rep.</h4>
-        <p>Log sets with one tap. Automatic rest timers count down while you recover. The Dynamic Island keeps your next set in view without unlocking your iPhone.</p>
+        <div class="feature-visual live-activity-visual">
+          <div class="activity-device activity-compact">{% include device-screen.html screen="live-compact" alt="Native compact Dynamic Island showing the workout icon and elapsed timer" %}</div>
+          <div class="activity-device activity-expanded">{% include device-screen.html screen="live-expanded" alt="Native expanded Dynamic Island with 135-pound bench press, 8 reps, heart rate, and one-tap set completion" %}</div>
+          <div class="activity-device activity-workout">{% include device-screen.html screen="activity-rest" alt="The matching strength Session with completed sets and automatic rest controls" %}</div>
+        </div>
+        <h4><span class="headline-line">More reps.</span><span class="headline-line">Fewer taps.</span></h4>
+        <p>Log sets. Pair supersets. Let the rest timer take over between them. Strength and cardio controls stay close on your Lock Screen and Dynamic&nbsp;Island.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/soma-feature-hero.png" alt="AI coaching based on session history" />
-        <h4 class="mobile-padding-45">A coach that knows your history.</h4>
-        <p class="desktop-padding-25 mobile-padding-25">Soma, your private, on-device coach, reads your recent Sessions and recovery to suggest what to train today.</p>
+        <div class="feature-visual">{% include device-screen.html screen="soma-suggestion" alt="Soma’s tailored strength plan with Movements, weights, reps, and timed sets" %}</div>
+        <h4><span class="headline-line">Soma.</span><span class="headline-line">Made for your next move.</span></h4>
+        <p>A Session shaped by your history, your equipment, and the time you have. Choose your intent. Swap a movement. Make the plan your&nbsp;own.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/apple-health-feature-hero.png" alt="Apple Health integration" />
-        <h4>Lives inside Apple Health.</h4>
-        <p class="desktop-padding-25">Somatic writes workouts, calories, and heart rate data directly to Apple Health. During sessions, it reads your live heart rate from Apple Watch or AirPods.</p>
+        <div class="feature-visual">{% include device-screen.html screen="health-context" alt="Soma’s workout and Health indicators, scrolled into view" badge="health" %}</div>
+        <h4><span class="headline-line">Apple Health.</span><span class="headline-line">Part of the picture.</span></h4>
+        <p>Bring your sleep, heart rate, and recent workouts into view. With your permission, Somatic reads Health context and saves completed workouts back to Apple&nbsp;Health.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/strength-feature-hero.png" alt="Personal record and volume tracking" />
-        <h4>Track the bar. Chase the PR.</h4>
-        <p class="mobile-padding-5">Log barbell, dumbbell, machine, cable, and bodyweight exercises with full set history. Somatic tracks personal records automatically and surfaces volume trends across weeks.</p>
+        <div class="feature-visual">{% include device-screen.html screen="summary" alt="Summary with rolling training highlights, weekly volume, and muscle training history" %}</div>
+        <h4><span class="headline-line">Every set.</span><span class="headline-line">A step forward.</span></h4>
+        <p>Keep your movement history, personal records, and rolling training highlights together. See where the work adds up. And what your next Session could look&nbsp;like.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/cardio-feature-hero.png" alt="GPS cardio tracking" />
-        <h4 class="mobile-padding-30">Run, walk, cycle, hike.</h4>
-        <p class="mobile-padding-10">GPS-powered distance tracking for runs, walks, cycles, and hikes. Heart rate zones update in real time. Your pace, distance, and elevation are all visible while you train.</p>
+        <div class="feature-visual">{% include device-screen.html screen="cardio" video="cardio" alt="Outdoor run with heart-rate zones as the main metric, plus distance and pace" %}</div>
+        <h4><span class="headline-line">Go places.</span><span class="headline-line">Keep pace.</span></h4>
+        <p>Run, walk, ride, or hike with GPS distance, pace, and route tracking. Outdoor auto-pause handles the stops. You handle the next&nbsp;stretch.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/design-feature-hero.png" alt="iPhone-native Liquid Glass design" />
-        <h4>Designed for iPhone.</h4>
-        <p class="desktop-padding-10">Liquid Glass UI, Live Activity support, Dynamic Island integration, dark and light modes, and system-level performance. Pure Swift code.</p>
+        <div class="feature-visual appearance-visual">
+          <div class="appearance-device appearance-device-dark">{% include device-screen.html screen="sessions-dark" video="sessions-dark" alt="Sessions in dark mode with the default blue Somatic Session card" %}</div>
+          <div class="appearance-device appearance-device-light">{% include device-screen.html screen="sessions" video="sessions-light" alt="Sessions in light mode with the default blue Somatic Session card" %}</div>
+        </div>
+        <h4><span class="headline-line">Feels right</span><span class="headline-line">at home on iPhone.</span></h4>
+        <p>Liquid Glass. Light and dark appearances. A theme that follows your training. Arrange Session cards into sections, and share a whole routine by&nbsp;link.</p>
       </div>
       <div class="card" data-animate>
-        <img src="src/images/landing/upcoming-features-hero.png" alt="Yoga and meditation — coming soon" />
-        <h4>Mind. Body. Coming soon.</h4>
-        <p class="mobile-padding-20">Guided yoga flows and breathing-based meditation experiences coming soon. Built with the same privacy-first, on-device approach.</p>
+        <div class="feature-visual">{% include device-screen.html screen="meditation" video="breathing" alt="Active breathing meditation with a visual guide, timer, and pause control" %}</div>
+        <h4><span class="headline-line">More ways</span><span class="headline-line">to find your rhythm.</span></h4>
+        <p>Find your rhythm with breathing meditation or Quiet Sit. Yoga is in development, and will be included for existing purchasers when it&nbsp;arrives.</p>
+      </div>
+      <div class="card card-duo" data-animate>
+        <div class="duo-visual">
+          <div class="duo-open">{% include device-screen.html screen="duo-guide" alt="Duo expanded: native status bar, movement Guide, 19:46 elapsed, and 135-pound strength sets" duo=true %}</div>
+          <div class="duo-closed">{% include device-screen.html screen="duo-outer" alt="The same strength Session on Duo’s outer display at 19:46 with its distinct status bar" duo_outer=true %}</div>
+        </div>
+        <div class="duo-copy">
+          <h4><span class="headline-line">More room</span><span class="headline-line">for your next set.</span></h4>
+          <p>Keep your Guide, History, or Notes beside your workout. Somatic adapts to Duo’s expanded display, so your next set and the context you need stay in view. Fold it closed and pick up where you left&nbsp;off.</p>
+        </div>
       </div>
     </div>
   </section>
 
+  <section class="feature-inventory" aria-labelledby="feature-inventory-title">
+    <div class="feature-inventory-header">
+      <h3 id="feature-inventory-title">A lot goes into showing&nbsp;up.</h3>
+      <p>From your first set to a quieter finish. Explore everything inside&nbsp;Somatic.</p>
+    </div>
+    <div class="feature-streams" id="feature-streams">
+      {% for group in site.data.features %}
+      <div class="feature-stream" tabindex="0" role="region" aria-label="{{ group.name }} features" style="--stream-duration: {{ group.duration }}s">
+        <div class="feature-stream-track">
+          <ul class="feature-stream-list" aria-label="{{ group.name }}">
+            {% for feature in group.items %}<li class="feature-chip">{{ feature }}</li>{% endfor %}
+          </ul>
+          <ul class="feature-stream-list feature-stream-copy" aria-hidden="true">
+            {% for feature in group.items %}<li class="feature-chip">{{ feature }}</li>{% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  <script src="{{ site.baseurl }}/src/js/feature-streams.js?v=20261027-polish6" defer></script>
+  <script src="{{ site.baseurl }}/src/js/hero-scroll.js?v=20261027-motion14" defer></script>
+
   <section class="callout">
     <div class="callout-inner" data-animate>
-      <h4>One price. No subscriptions.</h4>
-      <p>Somatic is a one-time purchase — no monthly fees, no paywalled features, no surprise upsells. We're starting at $2.99 during early access. Early adopters get everything that ships after at no extra cost.</p>
-      <p>The price will increase as new features arrive. Get in early.</p>
-      <p>Somatic is now live on the App Store.</p>
+      <h4><span class="headline-line">$3.99.</span><span class="headline-line">One purchase. More to come.</span></h4>
+      <p>Strength, cardio, and meditation today. Yoga on the&nbsp;way.</p>
+      <p>The price will increase when yoga arrives. Buy now and that update is included. No&nbsp;subscription.</p>
+      <p>Available on the App Store for $3.99&nbsp;USD.</p>
       <a class="btn-appstore" href="https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219">
         <img src="src/images/landing/app-store-badge.svg" alt="Download on the App Store" />
       </a>
     </div>
   </section>
+
+<p class="site-availability">For iPhone with iOS 26.2 or later. Apple Intelligence features depend on device availability. Local Session planning is available without them. Readiness estimates provide context, not a measurement of&nbsp;recovery.</p>

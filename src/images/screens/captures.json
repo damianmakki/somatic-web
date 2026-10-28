@@ -1,0 +1,146 @@
+{
+  "capturedDate": "2026-10-27",
+  "sampleData": true,
+  "hardware": [
+    "iPhone 18 Pro.png",
+    "iPhone Duo/Inner - Landscape.png",
+    "iPhone Duo/Outer - Portrait.png"
+  ],
+  "captures": [
+    {
+      "file": "sessions.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=grid",
+      "appearance": "light",
+      "captured": "2026-10-27T18:26:55-0600",
+      "data": "Isolated sample training data; native production views",
+      "theme": "neutral \u2014 default blue"
+    },
+    {
+      "file": "sessions-dark.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=grid",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:26:59-0600",
+      "data": "Isolated sample training data; native production views",
+      "theme": "neutral \u2014 default blue"
+    },
+    {
+      "file": "active.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=active",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:25-0600",
+      "data": "Isolated sample training data; native production views"
+    },
+    {
+      "file": "rest.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=active-rest",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:29-0600",
+      "data": "Isolated sample training data; native production views"
+    },
+    {
+      "file": "soma-suggestion.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=wizard-previews -appearanceMode dark",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:35-0600",
+      "data": "Isolated sample training data; native production views",
+      "view": "Tailored workout plan with prescribed Movements, weight/reps, and timed sets"
+    },
+    {
+      "file": "summary.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=summary-interactive",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:43-0600",
+      "data": "Isolated sample training data; native production views"
+    },
+    {
+      "file": "strength-summary.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--design-review strength-summary",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:53-0600",
+      "data": "Isolated sample training data; native production views"
+    },
+    {
+      "file": "meditation.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--meditation-preview=active-dark",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:27:38-0600",
+      "data": "Isolated sample training data; native production views"
+    },
+    {
+      "file": "cardio.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--cardio-preview=zones -appearanceMode dark",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:57-0600",
+      "data": "Isolated sample training data; native production views",
+      "view": "Active outdoor run with HR zones selected as the main metric"
+    },
+    {
+      "file": "cardio-summary.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--design-review cardio-summary",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:51:02-0600",
+      "data": "Isolated sample training data; native production views"
+    },
+    {
+      "file": "duo-guide.webp",
+      "device": "5D3EBD72-3A8C-4F0A-9ACD-27D6AF9B2B4B",
+      "args": "--sessions-review=active --website-static --duo-system-text -appearanceMode dark",
+      "display": 3,
+      "statusBar": "Native Duo status bar; expanded landscape capture",
+      "data": "Isolated sample strength Session; 19:46 elapsed, matching the non-Duo static strength screen",
+      "appearance": "dark"
+    },
+    {
+      "file": "cardio-route.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "view": "Native dark cardio summary scrolled to a point-to-point Hudson River Greenway route returned by Apple Maps walking directions; illustrative running data",
+      "appearance": "dark",
+      "args": "--design-review cardio-summary --website-route -appearanceMode dark"
+    },
+    {
+      "file": "duo-outer.webp",
+      "device": "5D3EBD72-3A8C-4F0A-9ACD-27D6AF9B2B4B",
+      "display": 1,
+      "view": "Closed Duo, portrait, native status bar",
+      "appearance": "dark",
+      "args": "--sessions-review=active --website-static --duo-system-text -appearanceMode dark",
+      "data": "Isolated sample strength Session; 19:46 elapsed, matching the non-Duo static strength screen"
+    },
+    {
+      "file": "health-context.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "args": "--sessions-review=readiness --website-health-indicators -appearanceMode dark",
+      "appearance": "dark",
+      "captured": "2026-10-27T18:50:49-0600",
+      "data": "Isolated sample training data; native production views",
+      "view": "Scrolled to supporting workout and Health indicators using the app\u2019s XXXL Dynamic Type setting"
+    },
+    {
+      "file": "live-compact.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "appearance": "dark",
+      "args": "--design-review live-working -appearanceMode dark",
+      "view": "Native system Dynamic Island compact presentation captured from Device Hub over a black Photos backdrop; display cropped and fitted into supplied hardware",
+      "data": "Sample Push Day, Bench Press, 135 lb \u00d7 8, heart rate 148"
+    },
+    {
+      "file": "live-expanded.webp",
+      "device": "927152B2-1BEA-4558-8C35-F05520C22A9B",
+      "appearance": "dark",
+      "args": "--design-review live-working -appearanceMode dark",
+      "view": "Native system Dynamic Island expanded presentation captured from Device Hub over a black Photos backdrop; display cropped and fitted into supplied hardware",
+      "data": "Sample Push Day, Bench Press, 135 lb \u00d7 8, heart rate 148"
+    }
+  ],
+  "displayChoices": "The design card pairs dark and light Sessions screens. All other homepage devices remain dark. Somatic Session gradient cards use the app\u2019s default neutral blue theme."
+}
