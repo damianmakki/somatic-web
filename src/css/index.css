@@ -1,6 +1,8 @@
 @import './reset.css';
 @import './variables.css';
-@import './typography.css';
+@import './typography.css?v=20261027-spacing19';
 @import './layout.css';
 @import './animations.css';
 @import './helpers.css';
+@import './devices.css?v=20261027-spacing19';
+@import './features.css?v=20261027-spacing19';

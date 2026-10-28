@@ -62,3 +62,23 @@ p {
 a {
   color: var(--color-text);
 }
+
+/* Keep short headings balanced and avoid lone words at the end of body copy. */
+h1, h2, h3, h4 { text-wrap: balance; }
+p { text-wrap: pretty; }
+.hero h2 { max-width: 46ch; line-height: 1.25; }
+.card h4 { max-width: 24ch; margin-inline: auto; }
+.card p { max-width: 44ch; margin-inline: auto; line-height: 1.5; }
+.card-duo h4, .card-duo p { margin-inline: 0; }
+.hero-headline-line { display: block; }
+@media (max-width: 768px) {
+  .card-duo h4, .card-duo p { margin-inline: auto; }
+}
+
+.site-availability { max-width: 72ch; margin: 32px auto 0; padding: 0 24px; color: var(--color-text-muted); text-align: center; font-size: 13px; line-height: 1.6; }
+
+/* Keep the live site’s phrase breaks while balancing each line responsively. */
+.headline-line { display: block; text-wrap: balance; }
+.card h4 { max-width: 25ch; }
+.card p { max-width: 38ch; text-wrap: pretty; }
+.callout h4 { max-width: 28ch; text-wrap: balance; }

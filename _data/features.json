@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Strength & Routines",
+    "duration": 199,
+    "items": [
+      "Time-based sets",
+      "Customizable set countdowns",
+      "Adjustable rest timers",
+      "Automatic rest after each set",
+      "Skip rest when you’re ready",
+      "One-tap set completion",
+      "Weight & reps for every set",
+      "Track reps in reserve (RIR)",
+      "Timed sets with optional weight",
+      "Edit completed set durations",
+      "Countdown & overtime tracking",
+      "Superset movement pairs",
+      "Swap Movements during a workout",
+      "Add Movements mid-session",
+      "Create your own Movements",
+      "Set default movement durations",
+      "Save your own workout Routines",
+      "Organize Routines into sections",
+      "Drag to reorder Session cards",
+      "Bodyweight exercise logging",
+      "Persistent movement notes",
+      "Step-by-step movement guides",
+      "Search by movement, muscle & equipment"
+    ]
+  },
+  {
+    "name": "Cardio",
+    "duration": 182,
+    "items": [
+      "GPS tracking for runs & walks",
+      "Outdoor cycling & hiking",
+      "Saved GPS route history",
+      "Live distance while you train",
+      "Current & average pace tracking",
+      "Speed & elevation metrics",
+      "Live heart rate from connected devices",
+      "Five heart rate training zones",
+      "Time spent in each heart rate zone",
+      "Session calorie tracking",
+      "Record laps during cardio",
+      "Automatic GPS pause & resume",
+      "Manual pause & resume controls",
+      "Choose your primary cardio metric",
+      "Customize your live metrics grid"
+    ]
+  },
+  {
+    "name": "Meditation",
+    "duration": 187,
+    "items": [
+      "Guided breathing with Soma",
+      "Quiet Sit meditation",
+      "Even breathing: 4 in, 4 out",
+      "Long Exhale: 4 in, 6 out",
+      "Box breathing with 4-second holds",
+      "Set your own meditation duration",
+      "Open-ended Quiet Sit Sessions",
+      "Animated visual breathing guide",
+      "Optional meditation bells",
+      "Hide controls while you practice",
+      "Pause & resume your practice",
+      "Mindful minutes saved to Apple Health",
+      "Practice history with personal notes"
+    ]
+  },
+  {
+    "name": "Soma coaching",
+    "duration": 171,
+    "items": [
+      "Private coaching on your iPhone",
+      "On-device Apple Intelligence",
+      "Suggestions based on recent training",
+      "Readiness-based Session planning",
+      "Choose Recover, Maintain or Progress",
+      "Plans that fit your available time",
+      "Match workouts to your equipment",
+      "Focus on selected muscle groups",
+      "Factor in soreness check-ins",
+      "Exclude specific Movements & equipment",
+      "Review & adjust your suggested plan",
+      "Soma guidance during your workout",
+      "Reflections after your Session"
+    ]
+  },
+  {
+    "name": "Progress & history",
+    "duration": 276,
+    "items": [
+      "Detailed workout history",
+      "Set-by-set movement history",
+      "Automatic personal record tracking",
+      "Personal records for timed sets",
+      "Revisit the Session behind a PR",
+      "Weight & rep history by date",
+      "Recorded duration for every timed set",
+      "Reps-in-reserve history",
+      "Movement progress charts",
+      "Track total strength volume",
+      "Weekly training goals & reviews",
+      "Training consistency & streaks",
+      "Rolling 7-day muscle load",
+      "Direct & supporting muscle breakdowns",
+      "Choose & reorder your stat highlights",
+      "Heart rate graphs across your Session",
+      "Average & peak session heart rate"
+    ]
+  },
+  {
+    "name": "Apple & Duo",
+    "duration": 247,
+    "items": [
+      "Save workouts directly to Apple Health",
+      "Heart rate from Apple Watch",
+      "Heart rate from supported AirPods",
+      "Live workout updates in Dynamic Island",
+      "Log sets from the Lock Screen",
+      "Control rest timers in Live Activities",
+      "Pause cardio from Live Activities",
+      "Duo layouts that expand with your screen",
+      "Movement guides beside active sets",
+      "Previous set history beside your workout",
+      "Persistent Notes companion panel",
+      "Keep your place when you fold",
+      "Start Sessions with Home Screen actions",
+      "Native Liquid Glass controls"
+    ]
+  },
+  {
+    "name": "Make it yours",
+    "duration": 162,
+    "items": [
+      "No account required",
+      "On-device data storage",
+      "No monthly subscription",
+      "Share Session links",
+      "Share routine sections",
+      "Import shared Routines",
+      "Import from Strong",
+      "Export your data",
+      "Restore from backup",
+      "Dark & light modes",
+      "Dynamic themes",
+      "Custom accent colors",
+      "Custom backgrounds",
+      "Alternative app icons",
+      "Metric & imperial units",
+      "Workout reminders",
+      "Inactivity nudges",
+      "Workout sounds & notifications"
+    ]
+  }
+]
