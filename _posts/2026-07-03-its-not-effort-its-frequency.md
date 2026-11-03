@@ -1,42 +1,42 @@
 ---
 title: "It's not effort. It's frequency."
-description: "Working hard but not progressing? Research shows training frequency is the most overlooked variable in building muscle and strength."
+description: "Already training hard but getting nowhere? A look at training frequency, the research behind it, and the gap between your plan and your log."
 date: 2026-07-03
 author: "The Somatic Team"
 tags:
   - training
 og_title: "It's not effort. It's frequency."
-og_description: "Working hard but not progressing? Research shows training frequency is the most overlooked variable in building muscle and strength."
+og_description: "Already training hard but getting nowhere? A look at training frequency, the research behind it, and the gap between your plan and your log."
 og_url: https://ruckuslabs.co/somatic/blog/its-not-effort-its-frequency/
 ---
 
-## You're Already Working Hard Enough
+## Before you make the workouts harder
 
-Ask someone who's been training for a year or two without meaningful progress what they think the problem is. Almost all of them will say: not working hard enough. They're almost never right about that.
+After a year or two of slow progress, it's tempting to blame your effort. Maybe you need another exercise, another drop set, a harder finish. But if the Sessions you do complete are already hard, it's worth looking at how often they happen.
 
 A 2016 meta-analysis in the *Journal of Sports Medicine* found that training each muscle group twice per week produced significantly greater hypertrophy than once per week, even when total weekly volume was equated.[^1] Frequency — how often the stimulus arrives — was a distinct and independently important variable from volume. Not interchangeable with it.
 
-You might already be working hard enough. The question is whether you're working often enough.
+Pull up the last few weeks of training before deciding the next one needs to hurt more.
 
 <!--more-->
 
 ---
 
-## The Effort Myth
+## The urge to squeeze more into one day
 
-The effort myth runs deep in gym culture. If progress is slow, the assumption is almost always that sessions need to be harder, not more frequent. Add a drop set. Push closer to failure. Add a fourth exercise. The instinct is always to grind harder on the sessions you're already doing.
+A slow month tends to produce the same response: add a drop set, push closer to failure, fit in a fourth exercise. All the extra work lands in the Sessions you're already doing. The gaps between them stay the same.
 
 This is the wrong lever for most people. Muscle protein synthesis — the biological mechanism behind muscle growth — spikes after a training session and returns to baseline within 24–48 hours in trained individuals. If the next stimulus doesn't arrive before that window closes, you're not building on the previous session. You're essentially starting over.
 
-Training a muscle group once a week means roughly 52 growth stimuli per year. Twice a week is 104. Grinding harder on 52 sessions cannot fully compensate for the difference.
+Training a muscle group once a week means roughly 52 growth stimuli per year. Twice a week is 104. Grinding harder on 52 Sessions cannot fully compensate for the difference.
 
 ---
 
-## How to Close the Frequency Gap
+## How to close the frequency gap
 
 **Audit your actual frequency, not your intended frequency**
 
-Pull up your training log and count the sessions you actually completed over the last 12 weeks. Divide by 12. That's your real weekly average. If it's lower than your stated goal, the program isn't the problem. Attendance is. This is uncomfortable data for most people. It's also the most actionable data you can have.
+Count the Sessions you completed over the last 12 weeks and divide by 12. That weekly average is more useful than the number you meant to hit. If the two are far apart, start with attendance before rewriting the program.
 
 **Match your split to your realistic schedule**
 
@@ -48,25 +48,25 @@ When life compresses your schedule, the instinct is to cram: one brutal session 
 
 **Track it visibly**
 
-Somatic surfaces your weekly session frequency and streak directly in the app. When you can see that you've averaged 2.1 sessions per week over the last month against a target of three, the gap is no longer deniable. Visible data creates behavioral pressure that intentions alone never do.
+You can see weekly Session frequency and your streak in Somatic. An average of 2.1 Sessions against a target of three tells you something specific about the last month. It's easier to work with that than a vague sense that you've been fairly consistent.
 
 ---
 
-## Two Lifters, Same Program
+## Two lifters, same program
 
-Two lifters. Same program. Same effort in the sessions they complete.
+Imagine two lifters putting in similar effort when they get to the gym. One sticks to three days a week. The other aims for five, but trains in bursts around busy stretches.
 
-Lifter A hits their three-day split 48 out of 52 weeks. 144 sessions across the year. Lifter B trains five days a week when motivated — which happens in bursts — and misses weeks during busy stretches. They end up with about 120 sessions.
+Lifter A hits their three-day split 48 out of 52 weeks. 144 Sessions across the year. Lifter B trains five days a week when motivated — which happens in bursts — and misses weeks during busy stretches. They end up with about 120 Sessions.
 
-On paper, Lifter B has a more ambitious program. In practice, Lifter A accumulated 20% more training stimulus, distributed more evenly, with less recovery debt from unplanned intensity spikes.
+The five-day plan sounds better on paper. Across the year, though, Lifter A has completed 20% more Sessions, spread more evenly, without the same bursts of work to recover from.
 
-Lifter A finishes the year ahead. Not because they trained harder. Because they trained more consistently.
+That steady schedule gives Lifter A the advantage by the end of the year.
 
 ---
 
-Effort matters. But effort applied infrequently is far less powerful than effort applied consistently. Before you add intensity to your program, audit your actual training frequency. Chances are the answer to your plateau isn't a harder session. It's more of them.
+Before you make your program harder, check how much of it you're completing. You may need to put more effort in. You may also find that protecting a few regular training days would do more for your progress than another punishing finish.
 
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 
 ---
 

@@ -1,45 +1,45 @@
 ---
 title: "A coach that knows your history. Nothing else does."
-description: "Most fitness apps store your data but never use it. Here's what a truly personalized training recommendation actually requires."
+description: "Your training log should shape what comes next. What useful recommendations need to know about your history, recovery, and habits."
 date: 2026-06-19
 author: "The Somatic Team"
 tags:
   - ai
   - privacy
 og_title: "A coach that knows your history. Nothing else does."
-og_description: "Most fitness apps store your data but never use it. Here's what a truly personalized training recommendation actually requires."
+og_description: "Your training log should shape what comes next. What useful recommendations need to know about your history, recovery, and habits."
 og_url: https://ruckuslabs.co/somatic/blog/a-coach-that-knows-your-history/
 ---
 
-## You've Been Logging Everything. Nothing's Been Reading It.
+## Two years in the log
 
-Two years of sessions. Every weight, every rep, every exercise you've touched since you started taking this seriously. Your training log is more complete than most people's. And your app still recommends the same split it gave you on week one.
+You've logged two years of training: every weight, every rep, every exercise since you started taking it seriously. Then you open the next recommendation and see the same split you got in week one. All that history is sitting there. You'd like it to count for something.
 
 A 2010 study in the *Journal of Strength and Conditioning Research* found that athletes who received programming adjusted to their individual performance response showed significantly better outcomes than those following fixed schedules.[^1] The variable that mattered wasn't the program structure. It was whether the program actually knew who was running it.
 
-Most apps store everything and read nothing.
+A record is useful. It's more useful when someone, or something, reads it before deciding what comes next.
 
 <!--more-->
 
 ---
 
-## The Gap Between a Plan and a Coach
+## The gap between a plan and a coach
 
-The fitness app market is full of products that are essentially digital logbooks with a recommendation layer bolted on top. The recommendation layer doesn't read your logbook. It reads a template.
+A lot of fitness apps work like digital logbooks with a training template alongside them. You can record everything you do without any of it changing the advice you get.
 
 This matters because training isn't static. Your readiness changes week to week. Your muscle group frequency balance shifts. Your body responds differently at week three of an accumulation block than it does at week one. A rigid program can't see any of that. It tells you what day it is and what's scheduled.
 
-The result is a recommendation that's theoretically sound and practically tone-deaf. It doesn't know you've been hammering push patterns all week and your pull volume has lagged. It doesn't know you had two hard sessions back to back and today probably isn't the day for a heavy deadlift attempt. It doesn't know you've been adding reps to your bench consistently for six weeks and a weight bump is overdue.
+That can leave you with perfectly reasonable advice at a poor time. You've pressed hard all week, but pulling still hasn't made the schedule. Two heavy Sessions in a row lead straight into a deadlift day. Or you've hit your bench rep targets for six weeks and nobody has suggested adding weight.
 
-A plan knows your goals. A coach knows your history. Most apps give you the former and call it the latter.
+A coach would look back through those weeks before writing the next one. That's the useful part of keeping a history.
 
 ---
 
-## What Real Personalization Actually Requires
+## What the recommendation needs to know
 
 **Track more than sets and reps**
 
-The minimum useful dataset for a personalized recommendation includes: sessions completed, muscle groups trained, weights and reps per exercise, session duration, and heart rate data where available. Volume by muscle group per week — not just total volume — matters in particular, since imbalances develop quietly and compound over time. If your logging system doesn't capture this, it can't generate a useful output.
+The minimum useful dataset for a personalized recommendation includes: Sessions completed, muscle groups trained, weights and reps per exercise, session duration, and heart rate data where available. Volume by muscle group per week — not just total volume — matters in particular, since imbalances develop quietly and compound over time. If your logging system doesn't capture this, it can't generate a useful output.
 
 **Understand your training phase**
 
@@ -47,29 +47,29 @@ Programming should look different at different points in a training block. Early
 
 **Surface imbalances before they become problems**
 
-The most actionable insight a coach provides isn't "what to train today" — it's "what you've been neglecting." Volume imbalances between muscle groups, lopsided push/pull ratios, a cardio gap in an otherwise strength-focused month. These patterns are visible in the data. The lifter who's deep in the routine can't see them.
+Sometimes the useful observation is simply that you've been neglecting something. Pulling volume has slipped, or cardio hasn't happened in a month. These gaps are easier to spot across a log than in the middle of another familiar Session.
 
 **Use acceptance patterns, not just performance data**
 
-What sessions you complete versus skip is as informative as how you perform in the sessions you do. Consistently avoiding certain session types reveals fatigue, boredom, or a mismatch between the recommendation and your actual state. A smart system reads this signal and adjusts.[^3]
+What Sessions you complete versus skip is as informative as how you perform in the Sessions you do. Consistently avoiding certain session types reveals fatigue, boredom, or a mismatch between the recommendation and your actual state. A smart system reads this signal and adjusts.[^3]
 
-Soma does all of this. Before every recommendation, it reads your full session history, volume by muscle group, performance trends, training split classification, and acceptance patterns. The suggestion it generates is specific to where you are today — not where a theoretical version of you is supposed to be.
+Before making a recommendation, Soma reads your Session history, volume by muscle group, performance trends, training split classification, and acceptance patterns. That gives the suggestion some context: what you've been doing, how it's going, and what you're actually choosing to complete.
 
 ---
 
-## What It Looks Like in Practice
+## What it looks like in practice
 
-Take a lifter two months into consistent training. On paper, they've been hitting four sessions a week. But when you look at the distribution, it's heavy on upper body push, light on back work, and cardio has been skipped three weeks running.
+Take a lifter two months into consistent training. On paper, they've been hitting four Sessions a week. But when you look at the distribution, it's heavy on upper body push, light on back work, and cardio has been skipped three weeks running.
 
 A generic app recommends the next scheduled session. A coach looks at the log and says: your posterior chain is falling behind, your pull-to-push ratio is off, and your cardiovascular base is eroding. Let's address that before it becomes a structural imbalance.
 
-The plan doesn't care what happened last month. The recommendation is built entirely from it.
+In that situation, last month's log gives you a better starting point than the next square on the calendar.
 
 ---
 
-The data you're collecting in your training log is more valuable than most apps make it. A good recommendation isn't built from your goals — it's built from your history. Where you've been, how your body has responded, what you've been neglecting, where you're ready to push.
+You've already done the work of keeping a training log. A useful recommendation should draw on it: where you've made progress, how you've responded, and which parts of your training have slipped. Otherwise you're filling in a record that never gets a second look.
 
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 
 ---
 

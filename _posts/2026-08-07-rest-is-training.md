@@ -1,46 +1,46 @@
 ---
 title: "Rest is training. You just don't log it."
-description: "Muscle growth happens during recovery, not during training. Sleep, rest days, and deloads aren't gaps in your program — they're where adaptation happens."
+description: "Sleep, rest days, and deloads give your training time to pay off. Why recovery deserves a place in the plan and the log."
 date: 2026-08-07
 author: "The Somatic Team"
 tags:
   - recovery
 og_title: "Rest is training. You just don't log it."
-og_description: "Muscle growth happens during recovery, not during training. Sleep, rest days, and deloads aren't gaps in your program — they're where adaptation happens."
+og_description: "Sleep, rest days, and deloads give your training time to pay off. Why recovery deserves a place in the plan and the log."
 og_url: https://ruckuslabs.co/somatic/blog/rest-is-training/
 ---
 
-## The Most Productive Thing You Can Do Today Might Be Nothing
+## The day after a hard session
 
-You trained hard yesterday. Today everything feels slightly flat — not quite ready, not quite recovered. Your instinct says go in anyway. Do something. Stay active.
+Yesterday's training went well. Today you feel flat, and the warmup you were planning doesn't sound especially appealing. You could go in anyway. You could also give yesterday's work a chance to settle.
 
 That instinct is often wrong. Muscle protein synthesis — the biological mechanism behind muscle growth — peaks at 24–48 hours post-training in trained individuals and returns to baseline shortly after, according to research from Stuart Phillips at McMaster University.[^1] The workout is the stimulus. The adaptation happens after. Skip the recovery, and you're repeatedly interrupting a process that never gets to finish.
 
-The sets don't build you. The recovery does.
+It can be hard to give that time the same value as the Session you logged.
 
 <!--more-->
 
 ---
 
-## Why Recovery Gets Left Out of the Log
+## Why recovery gets left out of the log
 
-The problem is that rest is invisible. You can see your workout log. You can count your sets and your reps and your PRs. Recovery doesn't produce a number you can point to. It just happens — or doesn't — in the background.
+A training log makes effort visible. There are sets to count, weights to compare, PRs to look back on. A rest day leaves much less to show, even when it's exactly what you needed.
 
-This invisibility creates a systematic bias toward undervaluing recovery. You can't see the adaptation that didn't happen because you went back too soon. You can't easily attribute the plateau to the rest you didn't take. The connection between recovery and performance is real but delayed, and delayed consequences are chronically underweighted.
+When progress stalls, you can point to an exercise or a missed Session. It's harder to point to the sleep you didn't get three nights ago. The delay makes the connection easy to miss.
 
-The result: sleep quality, rest day behavior, and deload weeks treated as optional bonuses rather than essential variables. Performance that stalls for reasons that feel mysterious because the most important variable isn't being tracked.
+That's how sleep, rest days, and deloads end up treated as extras, even in an otherwise carefully planned program.
 
 ---
 
-## Making Rest a First-Class Training Variable
+## Put recovery in the plan
 
 **Treat sleep as a performance variable, not a lifestyle variable**
 
 A 2011 Stanford study found that athletes who extended sleep to 10 hours per night showed significant improvements in speed, reaction time, and mood — with no changes to training load.[^3] Research from Eve Van Cauter's lab at the University of Chicago established that growth hormone — critical for tissue repair — is secreted primarily during slow-wave sleep, not throughout the day.[^2] Cutting sleep to fit in more training is not a trade-off that favors the training. It actively undermines it.
 
-**Log your rest days like you log your sessions**
+**Log your rest days like you log your Sessions**
 
-This sounds unnecessary until you try it. Tracking rest days — actual notation, not just the absence of a session — makes recovery a first-class training variable. You start to notice patterns: when rest days are skipped, performance drops two sessions later. When sleep quality tanks, so does strength. The correlation becomes visible because you made the data visible.
+Write down your rest days instead of leaving a blank in the log. Add a note about sleep. After a few weeks, you may be able to see that skipping rest tends to show up in your performance a couple of Sessions later. A blank space wouldn't have told you that.
 
 **Implement deload weeks every 3–4 training weeks**
 
@@ -54,21 +54,21 @@ Alcohol, late eating, screens before bed, and elevated stress all impair sleep a
 
 ---
 
-## The Week That Finished the Block
+## The week that finished the block
 
 A competitive recreational lifter notices training feels progressively harder week over week despite no changes to the program. Session performance is flat. Motivation is lower. Nothing specific is hurting, but everything feels slightly off.
 
-This is accumulated fatigue from insufficient recovery. Rather than pushing through, they take a deliberate deload week — 50% volume, same movements, lighter load — and prioritize sleep throughout.
+This is accumulated fatigue from insufficient recovery. Rather than pushing through, they take a deliberate deload week — 50% volume, same Movements, lighter load — and prioritize sleep throughout.
 
-The following week: energy rebounds noticeably. Weights that felt heavy the previous two weeks move more easily. A PR on bench press in week two post-deload.
+The next week, energy picks up and the weights move more easily than they have for a fortnight. By the second week back, the lifter hits a bench PR.
 
-The "lost" week wasn't lost. It completed the adaptation that the preceding four weeks built the foundation for.
+That easier week gave the preceding four weeks of work time to pay off.
 
 ---
 
-Recovery is not the absence of training. It is a training input — as real and as important as any set you log. Sleep, rest days, and deload weeks are the variables that determine whether the work you're doing in the gym actually converts to adaptation, or just accumulates as fatigue.
+Sleep, rest days, and easier weeks belong in the plan alongside your sets. They determine how much of that work you can recover from and return to. If you've been carefully tracking the effort, give the time afterward some attention too.
 
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 
 ---
 

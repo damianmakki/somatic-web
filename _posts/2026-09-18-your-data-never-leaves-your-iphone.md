@@ -1,31 +1,31 @@
 ---
 title: "Your health and fitness data should never leave your iPhone."
-description: "79% of health apps share user data with third parties. Here's what a genuinely private fitness app looks like — and why on-device AI produces better recommendations."
+description: "Your workout log reveals more than your best lifts. A look at fitness data sharing and how on-device processing keeps recommendations private."
 date: 2026-09-18
 author: "The Somatic Team"
 tags:
   - ai
   - privacy
 og_title: "Your health and fitness data should never leave your iPhone."
-og_description: "79% of health apps share user data with third parties. Here's what a genuinely private fitness app looks like — and why on-device AI produces better recommendations."
+og_description: "Your workout log reveals more than your best lifts. A look at fitness data sharing and how on-device processing keeps recommendations private."
 og_url: https://ruckuslabs.co/somatic/blog/your-data-never-leaves-your-iphone/
 ---
 
-## What Actually Happens When You Tap "Log Session"
+## What goes with a logged session
 
-The deal most fitness apps offer goes something like this: you give them your workout history, your GPS routes, your heart rate data, and your behavioral patterns, and they give you a place to log your sets. Most people don't know they've agreed to this. The terms are in the privacy policy.
+You open a fitness app to record a few sets. Over time, the record grows to include workout times, routes, heart rate, and the patterns of your week. It's easy to think of that as a log on your phone without asking where else it goes. The answer is usually somewhere in the privacy policy.
 
 A 2019 cross-sectional study published in the *BMJ* analyzed popular health and fitness apps and found that 79% shared user data with third parties, and most collected data categories beyond what was required for the app's stated function.[^1] Fitness apps consistently collected location, device identifiers, and behavioral data — often without clear disclosure.
 
-Your workout data is more sensitive than it looks. And most apps aren't treating it that way.
+Put together, those ordinary entries reveal a lot more than your best squat.
 
 <!--more-->
 
 ---
 
-## "I Have Nothing to Hide" Is the Wrong Frame
+## You can want privacy without having a secret
 
-The common response to fitness data privacy concerns is "I have nothing to hide." This conflates privacy with secrecy. Privacy isn't about hiding. It's about control — specifically, the right to decide what happens to information about you.
+"I have nothing to hide" comes up often in conversations about fitness data. But you can be quite happy to tell someone what you lifted and still want a say in who gets your health history. Choosing to share it is different from having that choice made for you.
 
 Your training data, combined with the other information fitness platforms hold — age, weight, health goals, location, behavioral patterns — forms a detailed portrait of your physical capabilities, health status, schedule, and habits. Health insurers, life insurers, employers, and data brokers have demonstrated clear interest in exactly this kind of information.
 
@@ -33,13 +33,13 @@ The data broker ecosystem is not hypothetical. Companies routinely purchase beha
 
 ---
 
-## What a Genuinely Private Architecture Looks Like
+## Where the processing happens matters
 
-**Understand the architectural difference that actually matters**
+**Ask where the recommendations are made**
 
 Most fitness apps are server-first: the app on your phone is a front-end, and the actual processing — recommendations, analysis, AI — happens in the cloud. This architecture requires your data to leave your device. It's not a policy choice. It's a structural requirement. On-device processing inverts this. The computation happens on your iPhone. The AI reads your training history, generates a recommendation, and delivers it — all without any data transmission. Not because the company promises to protect it, but because it was never sent anywhere to begin with.[^3]
 
-**Require no-account architecture from your fitness apps**
+**Check whether you need an account**
 
 An account creates a persistent identity that can be tracked, linked to other data sources, and retained indefinitely. No account means no credentials to compromise, no profile to build, no email address to harvest, and no persistent identifier linking your workout data to your real-world identity. The friction of account creation is not just an onboarding inconvenience. It is the creation of a data relationship that most users don't fully consider at signup.
 
@@ -47,31 +47,31 @@ An account creates a persistent identity that can be tracked, linked to other da
 
 Marketing copy says "we take your privacy seriously." Privacy policies say what data is collected, how it's used, and who it's shared with. The gap between the two is frequently significant.
 
-**Choose tools that make privacy architectural rather than policy-dependent**
+**Look at what the app needs to send**
 
-The strongest privacy guarantee is one that doesn't require trusting anyone. On-device processing, no-account architecture, and no server infrastructure eliminate the need for trust because they eliminate the infrastructure through which trust could be violated.
+An app that processes information on the device has less reason to send that information to a server. Combine that with no account and no server infrastructure, and there's much less data handling for a privacy policy to make promises about.
 
-Somatic has no servers. No accounts. No third-party data sharing. All AI processing happens entirely on your iPhone using Apple's on-device frameworks. Your training history, health data, and behavioral patterns never leave your device — not as a promise, but as a structural fact.
+That's the approach behind Somatic: no servers, no accounts, and no third-party data sharing. Apple's on-device frameworks handle the AI processing on your iPhone, alongside your training history and health data. The information stays on the device because that's where the work happens.
 
 ---
 
-## What Six Months of Data Actually Looks Like
+## What six months of data actually looks like
 
 Consider what a fitness app typically knows after six months of use: your name, email, age, weight, body fat percentage if entered, workout frequency, exercise selection, performance trends, GPS location of workouts, heart rate data, sleep patterns if integrated, and behavioral patterns around when and how you use the app.
 
-Aggregated and sold to a data broker, this information has significant commercial value. Individual users don't know when this happens, have limited recourse when it does, and typically consented through a terms-of-service document they didn't read.
+A record like that can be commercially valuable when it's aggregated into a profile. For the person doing the logging, there's often very little visibility into what happens after the data leaves the app, even if the terms technically allowed it.
 
 The alternative isn't less functionality. On-device AI models running on recent iPhones are sophisticated enough to provide genuinely personalized recommendations using local data. A system that knows your full history and processes it locally can produce more relevant recommendations than a cloud model working from a privacy-constrained dataset.
 
 ---
 
-Privacy in fitness apps is not a niche concern. It is a direct consequence of the business models most apps use — and most users don't realize what they're consenting to when they sign up.
+You shouldn't have to become an expert in data brokerage to keep a workout log. But it's reasonable to ask where the information goes and whether it needs to leave your phone at all.
 
-The alternative isn't a compromise. It's a better architecture: on-device AI that knows your full history, processes it locally, and delivers a genuinely personalized recommendation without sending anything anywhere.
+Local processing lets an app use your history for personalized recommendations while keeping that history on the device. That's a useful thing to look for when choosing where to record the next six months of your training.
 
-Your training data is yours. It should stay that way.
+A detailed record can be valuable to you without becoming someone else's asset.
 
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 
 ---
 
