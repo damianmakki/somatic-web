@@ -1,38 +1,38 @@
 ---
 title: "Your body is already talking. Are you listening?"
-description: "Resting heart rate, joint discomfort, energy levels — your body sends real-time readiness data before every session. Here's how to use it."
+description: "Your resting pulse, joint comfort, and energy can tell you something before the first set. How to notice those signals and use them in training."
 date: 2026-07-10
 author: "The Somatic Team"
 tags:
   - recovery
 og_title: "Your body is already talking. Are you listening?"
-og_description: "Resting heart rate, joint discomfort, energy levels — your body sends real-time readiness data before every session. Here's how to use it."
+og_description: "Your resting pulse, joint comfort, and energy can tell you something before the first set. How to notice those signals and use them in training."
 og_url: https://ruckuslabs.co/somatic/blog/your-body-is-already-talking/
 ---
 
-## Your Body Filed a Report Before You Touched the Bar
+## Before the first warmup set
 
-Before you loaded the bar this morning, your body had already filed a report. Resting heart rate. Sleep quality. How stiff your joints felt getting out of bed. How motivated — or not — you were to even get to the gym.
+You wake up stiff, your resting pulse is a little high, and getting to the gym feels harder than usual. None of it seems worth changing the plan over. But taken together, those details tell you something before you've touched a weight.
 
 Research published in *Frontiers in Physiology* has established resting heart rate and heart rate variability as reliable, low-cost indicators of training readiness — measurable daily, actionable immediately.[^1] Elite endurance coaches have used these metrics for decades. The data is available to anyone with a watch and a morning routine. Most people just aren't collecting it.
 
-Most people override that report with a pre-workout and a playlist. Some days that's fine. Over time, it's how you get hurt, plateau, or burn out without ever understanding why.
+A pre-workout and a good playlist can make those details easier to ignore. That's fine on some days. If it becomes the usual response, you can miss the pattern until progress stalls or something starts hurting.
 
 <!--more-->
 
 ---
 
-## When "Listen to Your Body" Gets Turned Against You
+## Which discomfort are you pushing through?
 
-Gym culture has a complicated relationship with body signals. On one hand, everyone agrees you should listen. On the other, the loudest voices in fitness celebrate overriding signals as a virtue — train through the soreness, ignore the fatigue, push anyway.
+You'll hear both pieces of advice in the same gym: listen to your body, and push through. Neither tells you much unless you know which signals deserve attention.
 
 This creates a dangerous ambiguity. The burn of a hard set is not the same signal as sharp knee pain on the descent. Motivational fatigue is not the same as systemic physiological fatigue. Treating all discomfort as something to conquer leads directly to training through warnings that were trying to prevent injuries.
 
-Meanwhile, the signals that would actually help — elevated resting heart rate indicating incomplete recovery, subtle joint discomfort that precedes a real problem, the flat energy of accumulated fatigue — get lumped in with excuses and ignored. The result: lifters who are periodically injured, chronically plateaued, and never quite sure why.
+An elevated resting pulse, a joint that's been bothering you, a run of flat Sessions: none of these needs to become a test of commitment. They're useful observations, especially when they keep showing up together.
 
 ---
 
-## The Signals Worth Tracking
+## The signals worth tracking
 
 **Take your resting heart rate every morning**
 
@@ -42,35 +42,35 @@ Before you get out of bed, take your pulse for 60 seconds. Do this for two weeks
 
 Delayed onset muscle soreness — the familiar ache 24–48 hours after training — is harmless. It reflects metabolic stress and microscopic tissue disruption, not injury. You can train through it with appropriate load adjustments. Joint pain is categorically different. Sharp pain localized to a joint rather than a muscle belly, pain that worsens during movement rather than easing up — these are stop signals, not push-through signals.[^3] The distinction matters enormously over time.
 
-**Track heart rate during sessions**
+**Track heart rate during Sessions**
 
 Heart rate drift — same pace, rising heart rate — is one of the clearest indicators of accumulated fatigue in cardiovascular training. If your usual 5K pace is producing a heart rate 10–15 BPM higher than normal, your cardiovascular system is working harder to produce the same output. That's data, not weakness.
 
-Somatic monitors live heart rate during sessions via Apple Watch or AirPods, logs average and peak BPM for every session, and uses that history as part of the recovery picture when generating your next recommendation. Your heart rate doesn't disappear after the session. It informs what comes next.
+Somatic monitors live heart rate during Sessions via Apple Watch or AirPods, logs average and peak BPM for every session, and uses that history as part of the recovery picture when generating your next recommendation. Your heart rate doesn't disappear after the session. It informs what comes next.
 
 **Use a pre-session readiness score**
 
-Rate your physical readiness 1–10 before each session. Not motivation — readiness. Log it. Over weeks, the correlation between low readiness scores and poor session performance becomes visible. You'll start to see which conditions predict great sessions and which predict ones you should have modified.
+Before each Session, give your physical readiness a score from 1 to 10 and log it. Try to separate how your body feels from whether you want to be there. After a few weeks, compare the scores with your training. You may notice which days would have gone better with an adjustment.
 
 ---
 
-## Two Days vs. Two Weeks
+## Two days vs. two weeks
 
-A competitive recreational runner notices that pace feels harder than usual for three consecutive runs. Heart rate at a familiar effort level is running about 8 BPM high. Sleep has been fine. Nothing obviously wrong.
+Say your usual running pace has felt harder for three runs in a row. Your heart rate is about 8 BPM higher at a familiar effort, even though you've been sleeping normally. There isn't one obvious thing wrong, just several days that don't feel like you.
 
 This is accumulated fatigue — systemic training stress that hasn't fully cleared. The instinct is to push through and trust that fitness will carry the day. The data-informed response is two easy days and one full rest day, then return.
 
 The runner who pushes through typically reaches a forced rest period 1–2 weeks later, after performance has visibly declined and the accumulated debt demands attention. The runner who reads the signal loses two days voluntarily and returns performing normally within a week.
 
-Two days versus two weeks. The only difference is whether you read the signal.
+For the runner, easing off early means a smaller interruption to the training they want to keep doing.
 
 ---
 
-Your body is running a continuous readiness assessment. Resting heart rate, joint comfort, energy level, in-session heart rate response — all of it is informative if you know what to look for and take the time to look.
+You don't need an elaborate readiness system to start paying attention. A morning pulse, a note about your joints, and a look at how a familiar Session feels give you something to compare over time.
 
-The lifters who stay healthy and progress consistently over years aren't the ones with the highest pain tolerance. They're the ones who learned to read the signals accurately and respond before small problems become big ones.
+The point is to notice changes early enough to do something modest about them. Adjusting today's Session is usually easier than dealing with a problem you've spent three weeks ignoring.
 
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 
 ---
 

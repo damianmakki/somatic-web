@@ -105,7 +105,7 @@ One or two well-placed references do more than a footnote on every paragraph. Th
 Keep it minimal. No hard sell. The post has already done the work.
 
 ```
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 ```
 
 Italic for the trust line. Linked text for the action. One sentence total.

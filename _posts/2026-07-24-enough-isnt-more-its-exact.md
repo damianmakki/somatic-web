@@ -1,39 +1,39 @@
 ---
 title: "Enough isn't more. It's exact."
-description: "More sets don't always mean more muscle. Understanding minimum effective volume, maximum adaptive volume, and maximum recoverable volume changes your programming."
+description: "How much training is enough? A practical look at minimum effective, maximum adaptive, and maximum recoverable volume."
 date: 2026-07-24
 author: "The Somatic Team"
 tags:
   - volume
   - training
 og_title: "Enough isn't more. It's exact."
-og_description: "More sets don't always mean more muscle. Understanding MEV, MAV, and MRV changes your programming."
+og_description: "How much training is enough? A practical look at minimum effective, maximum adaptive, and maximum recoverable volume."
 og_url: https://ruckuslabs.co/somatic/blog/enough-isnt-more-its-exact/
 ---
 
-## The Point Where More Training Becomes Less Progress
+## After the sixth chest exercise
 
-You've just finished your sixth chest exercise. The pump is enormous. You'll be sore for two days. That session almost certainly did not produce more muscle than four exercises would have. It may have produced less.
+You've finished six chest exercises, the pump is enormous, and you know the next two days will be sore. It feels like a good Session. The harder question is whether exercises five and six added anything you could recover from.
 
 A 2017 meta-analysis in the *Journal of Sports Sciences* found that volume and hypertrophy are positively correlated — up to a point.[^1] Beyond that point, additional volume stops driving growth and starts impairing recovery. Most lifters have no idea where that point is. They add sets because adding sets feels productive. The pump gets bigger. The session gets harder. The soreness gets worse. All of it feels like it must be working.
 
-Sometimes it is. Sometimes you crossed a line you couldn't see.
+You can't always tell from how tired you feel on the way out.
 
 <!--more-->
 
 ---
 
-## Why More Always Feels Like More
+## A habit that worked at first
 
-Early in training, almost any volume produces results. The body is highly responsive to novelty and stress. Five sets work better than three. Six work better than five. The pattern seems clear.
+Early on, adding work often pays off. Three sets become five, results improve, and it seems reasonable to keep going. After a while, adding another set becomes your answer to almost every plateau.
 
-But this response diminishes with training age. As your body adapts, the same volume produces less stimulus. The natural instinct is to add more. For a while, it works. Then it stops working, and the instinct is to add more still.
+As you get more training behind you, that pattern becomes less dependable. More work may help for a while, then stop helping. It's easy to respond by adding still more, because that's what worked before.
 
 Dr. Mike Israetel and the team at Renaissance Periodization describe this precisely: lifters keep adding volume past the point of productive stimulus because the subjective experience of fatigue is indistinguishable from the subjective experience of effective training.[^2] Both hurt. Only one of them is building anything. The result is a program that looks serious on paper and produces diminishing returns in practice.
 
 ---
 
-## MEV, MAV, and MRV: The Three Numbers That Define Your Volume Window
+## A floor, a useful range, and a ceiling
 
 **Understand MEV — the floor**
 
@@ -45,17 +45,17 @@ Maximum Adaptive Volume is the range where training produces the best results re
 
 **Understand MRV — the ceiling**
 
-Maximum Recoverable Volume is the upper limit of what your body can absorb in a given week. Above MRV, additional sets don't drive growth. They drive fatigue, impaired recovery, and eventually performance regression. MRV feels productive in the moment. That's the core trap. High-volume sessions produce significant subjective fatigue that feels like effective training. Fatigue and productive stimulus are not the same thing.
+Maximum Recoverable Volume is the upper limit of what your body can absorb in a given week. Above MRV, additional sets don't drive growth. They drive fatigue, impaired recovery, and eventually performance regression. MRV feels productive in the moment. That's the core trap. High-volume Sessions produce significant subjective fatigue that feels like effective training. Fatigue and productive stimulus are not the same thing.
 
 **Find your personal landmarks**
 
-MEV and MRV are not fixed numbers. They vary between individuals and muscle groups. Start conservatively — near the low end of the range. Add one set per muscle group per week over 3–4 weeks. When performance starts to decline despite adequate sleep and nutrition, you've found your practical MRV. Back off and settle into MAV.
+Your volume landmarks will differ from someone else's, and between your own muscle groups. Start near the low end, then add one set per muscle group each week for 3–4 weeks. Watch what happens to performance alongside sleep and nutrition. When recovery is keeping up, you have room to work; when performance begins falling, pull back toward the range that was working.
 
 Somatic tracks your weekly volume by muscle group. When a muscle group is falling below minimum effective volume, it surfaces as a priority in the next recommendation — before the deficit compounds into a structural imbalance.
 
 ---
 
-## 34 Sets a Week
+## 34 sets a week
 
 A lifter runs a high-volume chest phase: 6 sets of bench, 4 of incline, 4 of cable fly, 3 of dips. That's 17 sets for chest in a single session, twice a week — 34 sets weekly. Well past most people's MRV for any single muscle group.
 
@@ -64,13 +64,13 @@ Week two: performance flat. Still sore.
 Week three: performance drops. Sleep getting worse.
 Week four: shoulder irritation from accumulated fatigue.
 
-Compare that to a 16-set week distributed across two sessions. Performance climbs weekly. Soreness is manageable. Shoulder stays healthy. More growth from less work — because the work is within the window where it produces adaptation.
+Now compare a 16-set week spread across two Sessions: performance improves, soreness stays manageable, and the shoulder isn't irritated. The lower workload leaves room to recover and grow.
 
 ---
 
-More sets feel like more progress. Past a certain threshold, they aren't. Understanding where MEV, MAV, and MRV sit for your body is one of the highest-leverage investments you can make in your programming — because it's the difference between training that compounds and training that just accumulates fatigue.
+These volume landmarks give you a way to think about the work beyond how hard it felt. Find a range where you're improving and recovering, then watch how that range changes. An extra set only earns its place if it helps.
 
-*No subscription. Your data never leaves your iPhone.* [Join the beta via TestFlight.](https://testflight.apple.com/join/CVT6dz4U)
+*Try free for 14 days, then unlock for $14.99 USD once. No subscription. No automatic charge. No account required.* [Get Somatic on the App Store.](https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219)
 
 ---
 
