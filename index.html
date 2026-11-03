@@ -1,26 +1,30 @@
 ---
 layout: default
 title: "Somatic for iOS | Train with your body. Not against it."
-description: "Strength and cardio. Built around you. Track your workouts, plan with Soma, and see your progress. Private by default. $3.99. No subscription."
+description: "Strength and cardio. Built around you. Track your workouts, plan with Soma, and see your progress. Private by default. Try free for 14 days, then unlock for $14.99 once. No subscription."
 keywords: "fitness app, iPhone workout tracker, Apple Health, strength training, meditation, cardio, Apple Intelligence, privacy-first fitness"
 canonical: "https://ruckuslabs.co/somatic"
 og: true
 og_url: "https://ruckuslabs.co/somatic"
 og_title: "Somatic for iOS | Train with your body. Not against it."
-og_description: "Strength and cardio. Built around you. Track your workouts, plan with Soma, and see your progress. Private by default. $3.99. No subscription."
+og_description: "Strength and cardio. Built around you. Track your workouts, plan with Soma, and see your progress. Private by default. Try free for 14 days, then unlock for $14.99 once. No subscription."
 og_image: "https://ruckuslabs.co/somatic/src/images/social/og-preview.png"
 og_image_alt: "Somatic app — holistic fitness for iPhone"
 twitter_title: "Somatic — Train with your body. Not against it."
 structured_data: true
+extra_css: /src/css/purchase.css?v=20261029-3
 ---
 
   <header class="hero" data-animate>
     <div class="hero-content" data-animate style="--anim-delay: 0.1s">
       <h1><span class="hero-headline-line">Train with your body.</span><span class="hero-headline-line">Not against it.</span></h1>
-      <h2>Train. Breathe. Make&nbsp;progress.</h2>
-      <a class="btn-appstore" href="https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219" data-animate style="--anim-delay: 0.2s">
-        <img src="src/images/landing/app-store-badge.svg" alt="Download on the App Store" />
-      </a>
+      <h2>Strength, cardio, and meditation. Together on&nbsp;iPhone.</h2>
+      <div class="hero-purchase" data-animate style="--anim-delay: 0.2s">
+        <a class="btn-appstore" href="https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219">
+          <img src="src/images/landing/app-store-badge.svg" alt="Download on the App Store" width="164" height="55" />
+        </a>
+        <p class="hero-price">14 days free. Then $14.99 once. No&nbsp;subscription.</p>
+      </div>
       <div class="hero-devices" data-animate style="--anim-delay: 0.3s" aria-label="Somatic: strength training, guided breathing, and outdoor running">
         <div class="hero-device hero-device-center">{% include device-screen.html screen="rest" video="strength" alt="Active strength Session with a running rest timer" priority=true %}</div>
         <div class="hero-device hero-device-left">{% include device-screen.html screen="meditation" video="breathing" alt="Guided breathing meditation with an animated breathing guide" priority=true %}</div>
@@ -115,14 +119,49 @@ structured_data: true
     </div>
   </section>
   <script src="{{ site.baseurl }}/src/js/feature-streams.js?v=20261027-polish6" defer></script>
-  <script src="{{ site.baseurl }}/src/js/hero-scroll.js?v=20261027-motion14" defer></script>
+  <script src="{{ site.baseurl }}/src/js/hero-scroll.js?v=20261029-playback4" defer></script>
+
+  <section class="purchase-faq" aria-labelledby="purchase-faq-title">
+    <h3 id="purchase-faq-title">A few things before you&nbsp;begin.</h3>
+    <div class="purchase-faq-list faq-list">
+      <details class="faq-card">
+        <summary>Does it require a subscription?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>No. Download Somatic free and start a 14-day trial of the full app. Afterward, unlock it for $14.99 USD with one in-app purchase. There is no automatic charge. Strength, cardio, and meditation are included; yoga will be included for purchasers when it arrives. Your local price is shown in the App Store.</p></div>
+      </details>
+      <details class="faq-card">
+        <summary>What happens after the trial?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>You can still browse, view your history, and export your data. Starting new Sessions requires the one-time unlock. A Session already in progress can be finished. The trial does not renew or charge you automatically.</p></div>
+      </details>
+      <details class="faq-card">
+        <summary>What if I already bought Somatic?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>You keep full access without paying again. If needed, open Settings → Account → Restore purchases using the Apple Account you originally used.</p></div>
+      </details>
+      <details class="faq-card">
+        <summary>Do I need Apple Intelligence?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>No. Workout tracking, meditation, and local Session planning work without it. On supported devices, Apple Intelligence can help Soma select among plans shaped by your training history and preferences.</p></div>
+      </details>
+      <details class="faq-card">
+        <summary>Do I need an Apple Watch?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>No. You can log strength workouts, track outdoor cardio with your iPhone’s GPS, and practice meditation on iPhone. A connected Apple Watch or supported AirPods can supply heart-rate data through Apple Health, with your permission.</p></div>
+      </details>
+      <details class="faq-card">
+        <summary>Can I import my existing workouts?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>Yes. Export your workout history as a CSV from Strong, then open Settings → Data → Import from Strong in Somatic. You can also restore a Somatic backup.</p></div>
+      </details>
+      <details class="faq-card">
+        <summary>Which iPhones are supported?</summary>
+        <div class="purchase-faq-answer faq-answer"><p>Somatic requires an iPhone running iOS 26.2 or later. It also adapts to Duo’s expanded display. Apple Intelligence features depend on device, language, and system availability; core tracking and local planning remain available without them.</p></div>
+      </details>
+    </div>
+    <p class="purchase-faq-help"><a href="{{ site.baseurl }}/help/">Explore all questions in Help<span aria-hidden="true"> →</span></a></p>
+  </section>
 
   <section class="callout">
     <div class="callout-inner" data-animate>
-      <h4><span class="headline-line">$3.99.</span><span class="headline-line">One purchase. More to come.</span></h4>
+      <h4><span class="headline-line">Find your rhythm.</span><span class="headline-line">14 days on us.</span></h4>
       <p>Strength, cardio, and meditation today. Yoga on the&nbsp;way.</p>
-      <p>The price will increase when yoga arrives. Buy now and that update is included. No&nbsp;subscription.</p>
-      <p>Available on the App Store for $3.99&nbsp;USD.</p>
+      <p>Try the full app, then unlock Somatic for $14.99&nbsp;USD. One purchase. No subscription or automatic&nbsp;charge.</p>
+      <p>Free to download on the App Store. Already bought Somatic? You keep full&nbsp;access.</p>
       <a class="btn-appstore" href="https://apps.apple.com/us/app/somatic-train-with-your-body/id6773419219">
         <img src="src/images/landing/app-store-badge.svg" alt="Download on the App Store" />
       </a>

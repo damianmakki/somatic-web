@@ -49,10 +49,25 @@
   aspect-ratio: 1.22;
   margin: 60px 0 40px;
 }
-.hero-device { position: absolute; width: 38%; top: 3%; }
-.hero-device-left { left: 31%; z-index: 1; transform: translateX(calc(var(--hero-progress, 0) * -81.578947%)); }
-.hero-device-center { left: 30%; width: 40%; top: 0; z-index: 2; transform: translateY(calc(var(--hero-progress, 0) * -16px)); }
-.hero-device-right { right: 31%; z-index: 1; transform: translateX(calc(var(--hero-progress, 0) * 81.578947%)); }
+.hero-device { position: absolute; width: 38%; top: 3%; transform-origin: 50% 35%; }
+.hero-device-left {
+  left: 31%;
+  z-index: 1;
+  transform: translate3d(calc(var(--hero-left-progress, 0) * -81.578947%), calc((1 - var(--hero-left-progress, 0)) * 16px), 0) rotate(var(--hero-left-angle, 0deg)) scale(calc(0.94 + var(--hero-left-progress, 0) * 0.06));
+}
+.hero-device-center {
+  left: 30%;
+  width: 40%;
+  top: 0;
+  z-index: 2;
+  transform: translate3d(0, calc(var(--hero-progress, 0) * -14px), 0) scale(calc(1.025 - var(--hero-progress, 0) * 0.025));
+}
+.hero-device-right {
+  right: 31%;
+  z-index: 1;
+  transform: translate3d(calc(var(--hero-right-progress, 0) * 81.578947%), calc((1 - var(--hero-right-progress, 0)) * 16px), 0) rotate(var(--hero-right-angle, 0deg)) scale(calc(0.94 + var(--hero-right-progress, 0) * 0.06));
+}
+.hero-devices.is-revealing .hero-device { will-change: transform; }
 
 .card-duo {
   grid-column: 1 / -1;
@@ -89,7 +104,7 @@
 @media (max-width: 768px) {
   .hero-devices { width: min(76%, 280px); aspect-ratio: 1800 / 3680; margin-block: 40px 24px; }
   .hero-device-left, .hero-device-right { display: none; }
-  .hero-device-center { left: 0; width: 100%; }
+  .hero-device-center { left: 0; width: 100%; transform: translateY(calc(var(--hero-progress, 0) * -8px)); }
 
   .card-duo { grid-template-columns: 1fr; gap: 16px; text-align: center; }
 }
@@ -101,7 +116,7 @@
 
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-devices { --hero-progress: 1; }
+  .hero-devices { --hero-progress: 1; --hero-left-progress: 1; --hero-right-progress: 1; }
   .hero-device-center { transform: none; }
 }
 
